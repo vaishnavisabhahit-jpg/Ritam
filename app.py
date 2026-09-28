@@ -23,7 +23,6 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
 
 # --- Initialize Gemini API Client ---
-# Fetches from Streamlit Secrets or local environment
 api_key = os.getenv("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY", "")
 client = genai.Client(api_key=api_key) if api_key else None
 
@@ -40,16 +39,16 @@ def cosine_similarity(a, b):
 
 @st.cache_data
 def get_gemini_embedding(text: str):
-    """Generate vector embedding using Google's active gemini-embedding-2 model."""
+    """Generate vector embedding using text-embedding-004."""
     if not client:
         return None
     try:
         response = client.models.embed_content(
-            model="gemini-embedding-2-preview",
+            model="text-embedding-004",
             contents=text
         )
         return response.embeddings[0].values
-    except Exception as e:
+    except Exception:
         return None
 
 
@@ -74,7 +73,7 @@ def check_emergency(query: str) -> bool:
 
 # --- UI Header & Sidebar Setup ---
 st.title("⚡ Ritam AI — FDA Medical Intelligence Engine")
-st.caption("Grounded FDA Intelligence Powered by `gemini-2.5-flash`")
+st.caption("Grounded FDA Intelligence Powered by `gemini-1.5-flash`")
 
 st.sidebar.header("System Controls")
 drug_options = {
@@ -115,13 +114,13 @@ if st.button("🚀 Analyze & Verify", type="primary"):
             if not chunks:
                 st.error(f"No processed data found for **{selected_label}** in `data/processed/{selected_drug}.json`.")
             else:
-                # 1. Hybrid Search Scoring: Keyword Boost
+                # 1. Keyword Matching Score
                 query_words = set(user_query.lower().split())
                 for c in chunks:
                     c_text = c.get("text", "").lower()
                     c["score"] = sum(1 for w in query_words if w in c_text)
 
-                # 2. Vector Search Scoring: Gemini Embeddings
+                # 2. Vector Search Scoring
                 query_emb = get_gemini_embedding(user_query)
                 if query_emb:
                     top_candidates = sorted(chunks, key=lambda x: x["score"], reverse=True)[:5]
@@ -132,7 +131,7 @@ if st.button("🚀 Analyze & Verify", type="primary"):
                             sim = cosine_similarity(query_emb, c_emb)
                             c["score"] += sim * 10.0
 
-                # Sort and pick top 3 relevant chunks
+                # Sort and select top context chunks
                 chunks.sort(key=lambda x: x["score"], reverse=True)
                 top_chunks = chunks[:3]
 
@@ -157,7 +156,7 @@ if st.button("🚀 Analyze & Verify", type="primary"):
 
                 try:
                     response = client.models.generate_content(
-                        model="gemini-2.5-flash",
+                        model="gemini-1.5-flash",
                         contents=prompt,
                         config=types.GenerateContentConfig(
                             system_instruction=system_instruction,
