@@ -73,7 +73,7 @@ def check_emergency(query: str) -> bool:
 
 # --- UI Header & Sidebar Setup ---
 st.title("⚡ Ritam AI — FDA Medical Intelligence Engine")
-st.caption("Grounded FDA Intelligence Powered by `gemini-1.5-flash`")
+st.caption("Grounded FDA Intelligence Powered by `gemini-2.5-flash`")
 
 st.sidebar.header("System Controls")
 drug_options = {
@@ -136,28 +136,22 @@ if st.button("🚀 Analyze & Verify", type="primary"):
                 top_chunks = chunks[:3]
 
                 # 3. Context & Prompt Assembly
-                context_text = "\n\n".join([
-                try:
-                    response = client.models.generate_content(
-                        model="models/gemini-1.5-flash",
-                        contents=prompt,
-                        config=types.GenerateContentConfig(
-                            system_instruction=system_instruction,
-                            temperature=0.1
-                        )
-                    )
+                context_chunks = []
+                for c in top_chunks:
+                    sec = c.get("section_title") or c.get("section") or "General"
+                    pg = c.get("page", 1)
+                    txt = c.get("text", "")
+                    context_chunks.append(f"--- Section: {sec} (Page {pg}) ---\n{txt}")
+                
+                context_text = "\n\n".join(context_chunks)
 
-                    st.subheader("📋 Grounded Answer")
-                    st.write(response.text)
+                prompt = (
+                    f"Target Drug: {selected_label}\n"
+                    f"Target Audience Profile: {audience}\n"
+                    f"User Inquiry: {user_query}\n\n"
+                    f"FDA Official Context:\n{context_text}"
+                )
 
-                    st.markdown("---")
-                    st.subheader("📄 Top Retained Source Context")
-                    for i, c in enumerate(top_chunks, 1):
-                        with st.expander(f"Source #{i} — Section: {c.get('section', 'General')} (Page {c.get('page', 1)})"):
-                            st.write(f'"{c.get("text", "")}"')
-
-                except Exception as e:
-                    st.error(f"API Generation Failure: {e}")
                 system_instruction = (
                     "You are Ritam AI, a safety-critical medical assistant. Answer using ONLY the provided FDA label context.\n"
                     "Do not guess, assume, or fabricate medical advice. If information is not in the context, explicitly state that.\n"
@@ -166,7 +160,7 @@ if st.button("🚀 Analyze & Verify", type="primary"):
 
                 try:
                     response = client.models.generate_content(
-                        model="gemini-1.5-flash",
+                        model="gemini-2.5-flash",
                         contents=prompt,
                         config=types.GenerateContentConfig(
                             system_instruction=system_instruction,
@@ -180,7 +174,9 @@ if st.button("🚀 Analyze & Verify", type="primary"):
                     st.markdown("---")
                     st.subheader("📄 Top Retained Source Context")
                     for i, c in enumerate(top_chunks, 1):
-                        with st.expander(f"Source #{i} — Section: {c.get('section', 'General')} (Page {c.get('page', 1)})"):
+                        sec = c.get("section_title") or c.get("section") or "General"
+                        pg = c.get("page", 1)
+                        with st.expander(f"Source #{i} — Section: {sec} (Page {pg})"):
                             st.write(f'"{c.get("text", "")}"')
 
                 except Exception as e:
