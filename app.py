@@ -73,7 +73,7 @@ def check_emergency(query: str) -> bool:
 
 # --- UI Header & Sidebar Setup ---
 st.title("⚡ Ritam AI — FDA Medical Intelligence Engine")
-st.caption("Grounded FDA Intelligence Powered by `gemini-2.5-flash`")
+st.caption("Grounded FDA Intelligence Powered by Gemini")
 
 st.sidebar.header("System Controls")
 drug_options = {
@@ -142,7 +142,7 @@ if st.button("🚀 Analyze & Verify", type="primary"):
                     pg = c.get("page", 1)
                     txt = c.get("text", "")
                     context_chunks.append(f"--- Section: {sec} (Page {pg}) ---\n{txt}")
-                
+
                 context_text = "\n\n".join(context_chunks)
 
                 prompt = (
@@ -158,16 +158,28 @@ if st.button("🚀 Analyze & Verify", type="primary"):
                     "Adjust complexity to match the requested audience profile."
                 )
 
-                try:
-                    response = client.models.generate_content(
-                        model="gemini-2.5-flash",
-                        contents=prompt,
-                        config=types.GenerateContentConfig(
-                            system_instruction=system_instruction,
-                            temperature=0.1
-                        )
-                    )
+                # Candidate model list to prevent API endpoint mismatch errors
+                candidate_models = ["gemini-3.8-flash", "gemini-2.5-flash", "gemini-1.5-flash"]
+                response = None
+                last_error = None
 
+                for model_id in candidate_models:
+                    try:
+                        response = client.models.generate_content(
+                            model=model_id,
+                            contents=prompt,
+                            config=types.GenerateContentConfig(
+                                system_instruction=system_instruction,
+                                temperature=0.1
+                            )
+                        )
+                        if response:
+                            break
+                    except Exception as e:
+                        last_error = e
+                        continue
+
+                if response and hasattr(response, "text"):
                     st.subheader("📋 Grounded Answer")
                     st.write(response.text)
 
@@ -178,6 +190,5 @@ if st.button("🚀 Analyze & Verify", type="primary"):
                         pg = c.get("page", 1)
                         with st.expander(f"Source #{i} — Section: {sec} (Page {pg})"):
                             st.write(f'"{c.get("text", "")}"')
-
-                except Exception as e:
-                    st.error(f"API Generation Failure: {e}")
+                else:
+                    st.error(f"API Generation Failure: {last_error}")
