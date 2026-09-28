@@ -1,0 +1,11 @@
+{
+  "primary": {
+    "label": "National Emergency Services",
+    "tel": "911"
+  },
+  "poison": {
+    "label": "Poison Control Center Hotline",
+    "tel": "1-800-222-1222"
+  },
+  "disclaimer": "If you are experiencing severe side effects, allergic reactions, or overdose symptoms, please stop using this application and seek immediate medical help."
+}

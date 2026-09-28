@@ -1,0 +1,2927 @@
+[
+  {
+    "chunk_id": "levothyroxine_001",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 1,
+    "text": "LEVOTHYROXINE SODIUM- levothyroxine sodium capsule YARAL Pharma Inc.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_002",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 1,
+    "text": "HIGHLIGHTS OF PRESCRIBING INFORMATION These highlights do not include all the information needed to use Levothyroxine Sodium capsules safely and effectively. See full prescribing information for Levothyroxine Sodium capsules.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_003",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 1,
+    "text": "Levothyroxine Sodium capsules, for oral use",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_004",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 1,
+    "text": "WARNING: NOT FOR TREATMENT OF OBESITY or FOR WEIGHT LOSS",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_005",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 1,
+    "text": "See full prescribing information for complete boxed warning",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_006",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 1,
+    "text": "Thyroid hormones, including Levothyroxine Sodium capsules, should not be used for the treatment of obesity or for weight loss. Doses beyond the range of daily hormonal requirements may produce serious or even life threatening manifestations of toxicity ( 6, 10).",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_007",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 1,
+    "text": "INDICATIONS AND USAGE Levothyroxine Sodium capsules are L-thyroxine (T4) indicated for adults and pediatric patients 6 years and older with:",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_008",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 1,
+    "text": "Hypothyroidism - As replacement therapy in primary (thyroidal), secondary (pituitary), and tertiary (hypothalamic) congenital or acquired hypothyroidism ( 1) Pituitary Thyrotropin (Thyroid-Stimulating Hormone, TSH) Suppression - As an adjunct to surgery and radioiodine therapy in the management of thyrotropin-dependent well-differentiated thyroid cancer ( 1)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_009",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 1,
+    "text": "Not indicated for suppression of benign thyroid nodules and nontoxic diffuse goiter in iodine-sufficient patients ( 1) Not indicated for treatment of transient hypothyroidism during the recovery phase of subacute thyroiditis ( 1)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_010",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 1,
+    "text": "DOSAGE AND ADMINISTRATION Administer once daily, on an empty stomach, one-half to one hour before breakfast ( 2.1) Administer at least 4 hours before or after drugs that are known to interfere with absorption ( 2.1) Evaluate the need for dose adjustments when regularly administering within an hour of certain foods that may affect Levothyroxine Sodium capsules absorption ( 2.1) Swallow Levothyroxine Sodium capsules whole, do not cut, crush, or chew ( 2.1) Starting dose depends on a variety of factors, including age, body weight, cardiovascular status, concomitant medical conditions (including pregnancy), concomitant medications, co-administered food, and the specific nature of the condition being treated. Peak therapeutic effect may not be attained for 4-6 weeks ( 2.2) See full prescribing information for dosing in specific patient populations ( 2.3) Adequacy of therapy determined with periodic monitoring of TSH and/or T4 as well as clinical status ( 2.4)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_011",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 1,
+    "text": "DOSAGE FORMS AND STRENGTHS Capsules: 13, 25, 50, 75, 88, 100, 112, 125, 137, 150, 175, 200 mcg ( 3)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_012",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 1,
+    "text": "CONTRAINDICATIONS Uncorrected adrenal insufficiency ( 4)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_013",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 1,
+    "text": "WARNINGS AND PRECAUTIONS Cardiac adverse reactions in the elderly and in patients with underlying cardiovascular disease: Initiate Levothyroxine Sodium capsules at less than the full replacement dose because of the increased risk of cardiac adverse reactions, including atrial fibrillation. ( 2.3, 5.1, 8.5) Myxedema coma: Do not use oral thyroid hormone drug products to treat myxedema coma. ( 5.2)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_014",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 2,
+    "text": "Acute adrenal crisis in patients with concomitant adrenal insufficiency: Treat with replacement glucocorticoids prior to initiation of Levothyroxine Sodium capsules treatment. ( 5.3) Prevention of hyperthyroidism or incomplete treatment of hypothyroidism: Proper dose titration and careful monitoring is critical to prevent the persistence of hypothyroidism or the development of hyperthyroidism. ( 5.4) Worsening of diabetic control: Therapy in patients with diabetes mellitus may worsen glycemic control and result in increased antidiabetic agent or insulin requirements. Carefully monitor glycemic control after starting, changing, or discontinuing thyroid hormone therapy. ( 5.5) Decreased bone mineral density associated with thyroid hormone over-replacement: Over- replacement can increase bone resorption and decrease bone mineral density. Give the lowest effective dose. ( 5.6)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_015",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 2,
+    "text": "ADVERSE REACTIONS Adverse reactions associated with Levothyroxine Sodium capsules are primarily those of hyperthyroidism due to therapeutic overdosage including: arrhythmias, myocardial infarction, dyspnea, muscle spasm, headache, nervousness, irritability, insomnia, tremors, muscle weakness, increased appetite, weight loss, diarrhea, heat intolerance, menstrual irregularities, and skin rash ( 6) To report SUSPECTED ADVERSE REACTIONS, contact YARAL Pharma, Inc. at 1-866-218-9009, or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_016",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 2,
+    "text": "DRUG INTERACTIONS See full prescribing information for drugs that affect thyroid hormone pharmacokinetics and metabolism (e.g., absorption, synthesis, secretion, catabolism, protein binding, and target tissue response) and may alter the therapeutic response to Levothyroxine Sodium capsules ( 7)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_017",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 2,
+    "text": "USE IN SPECIFIC POPULATIONS Pregnancy may require the use of higher doses of Levothyroxine Sodium capsules ( 2.3, 8.1) See 17 for PATIENT COUNSELING INFORMATION and FDA-approved patient labeling.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_018",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 2,
+    "text": "FULL PRESCRIBING INFORMATION: CONTENTS* WARNING: NOT FOR TREATMENT OF OBESITY or FOR WEIGHT LOSS 1 INDICATION AND USAGE 2 DOSAGE AND ADMINISTRATION 2.1 General Administration Information 2.2 General Principles of Dosing 2.3 Dosing In Specific Patient Populations 2.4 Monitoring TSH and/or Thyroxine (T4) Levels 3 DOSAGE FORMS AND STRENGTHS 4 CONTRAINDICATIONS 5 WARNINGS AND PRECAUTIONS 5.1 Cardiac Adverse Reactions in the Elderly and in Patients with Underlying Cardiovascular Disease 5.2 Myxedema Coma 5.3 Acute Adrenal Crisis in Patients with Concomitant Adrenal Insufficiency 5.4 Prevention of Hyperthyroidism or Incomplete Treatment of Hypothyroidism 5.5 Worsening of Diabetic Control 5.6 Decreased Bone Mineral Density Associated with Thyroid Hormone Over- Replacement 6 ADVERSE REACTIONS 7 DRUG INTERACTIONS 7.1 Drugs Known to Affect Thyroid Hormone Pharmacokinetics 7.2 Antidiabetic Therapy",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_019",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 3,
+    "text": "7.3 Oral Anticoagulants 7.4 Digitalis Glycosides 7.5 Antidepressant Therapy 7.6 Ketamine 7.7 Sympathomimetics 7.8 Tyrosine-Kinase Inhibitors 7.9 Drug-Food Interactions 7.10 Drug-Laboratory Test Interactions 8 USE IN SPECIFIC POPULATIONS 8.1 Pregnancy 8.2 Lactation 8.4 Pediatric Use 8.5 Geriatric Use 10 OVERDOSAGE 11 DESCRIPTION 12 CLINICAL PHARMACOLOGY 12.1 Mechanism of Action 12.2 Pharmacodynamics 12.3 Pharmacokinetics 13 NONCLINICAL TOXICOLOGY 13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility 16 HOW SUPPLIED/STORAGE AND HANDLING 16.1 How Supplied 16.2 Storage and Handling 17 PATIENT COUNSELING INFORMATION *",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_020",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 3,
+    "text": "WARNING: NOT FOR TREATMENT OF OBESITY or FOR WEIGHT LOSS",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_021",
+    "drug": "levothyroxine",
+    "section_title": "General Information",
+    "audience": "clinician",
+    "page": 3,
+    "text": "Thyroid hormones, including Levothyroxine Sodium capsules, either alone or with other therapeutic agents, should not be used for the treatment of obesity or for weight loss. In euthyroid patients, doses within the range of daily hormonal requirements are ineffective for weight reduction. Larger doses may produce serious or even life threatening manifestations of toxicity, particularly when given in association with sympathomimetic amines such as those used for their anorectic effects [see Adverse Reactions (6), Drug Interactions (7.7), and Overdosage (10)].",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_022",
+    "drug": "levothyroxine",
+    "section_title": "1 INDICATION AND USAGE",
+    "audience": "clinician",
+    "page": 3,
+    "text": "Sections or subsections omitted from the full prescribing information are not listed.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_023",
+    "drug": "levothyroxine",
+    "section_title": "1 INDICATION AND USAGE",
+    "audience": "clinician",
+    "page": 4,
+    "text": "Levothyroxine Sodium capsules are indicated as a replacement therapy in adults and pediatric patients 6 years and older with primary (thyroidal), secondary (pituitary), and tertiary (hypothalamic) congenital or acquired hypothyroidism.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_024",
+    "drug": "levothyroxine",
+    "section_title": "1 INDICATION AND USAGE",
+    "audience": "clinician",
+    "page": 4,
+    "text": "Pituitary Thyrotropin (Thyroid-Stimulating Hormone, TSH) Suppression",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_025",
+    "drug": "levothyroxine",
+    "section_title": "1 INDICATION AND USAGE",
+    "audience": "clinician",
+    "page": 4,
+    "text": "Levothyroxine Sodium capsules are indicated as an adjunct to surgery and radioiodine therapy in the management of adults and pediatric patients 6 years and older with thyrotropin-dependent well-differentiated thyroid cancer.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_026",
+    "drug": "levothyroxine",
+    "section_title": "1 INDICATION AND USAGE",
+    "audience": "clinician",
+    "page": 4,
+    "text": "Levothyroxine Sodium capsules are not indicated for suppression of benign thyroid nodules and nontoxic diffuse goiter in iodine-sufficient patients as there are no clinical benefits and overtreatment with Levothyroxine Sodium capsules may induce hyperthyroidism [see Warnings and Precautions (5.4)]. Levothyroxine Sodium capsules are not indicated for treatment of transient hypothyroidism during the recovery phase of subacute thyroiditis.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_027",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 4,
+    "text": "Administer Levothyroxine Sodium capsules as a single daily oral dose, on an empty stomach, one-half to one hour before breakfast.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_028",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 4,
+    "text": "Administer Levothyroxine Sodium capsules at least 4 hours before or after drugs known to interfere with Levothyroxine Sodium capsules absorption [see Drug Interactions (7.1)]",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_029",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 4,
+    "text": "Evaluate the need for dose adjustments when regularly administering within an hour of certain foods that may affect Levothyroxine Sodium capsules absorption [see Drug Interactions (7.9) and Clinical Pharmacology (12.3)].",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_030",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 4,
+    "text": "Swallow Levothyroxine Sodium capsules whole, do not cut, crush, or chew.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_031",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 4,
+    "text": "The dose of Levothyroxine Sodium capsules for hypothyroidism or pituitary TSH suppression depends on a variety of factors including the patient's age, body weight, cardiovascular status, concomitant medical conditions (including pregnancy), concomitant medications, co-administered food, and the specific nature of the condition being treated [see Dosage and Administration (2.3), Warnings and Precautions (5), and Drug Interactions (7)] . Dosing must be individualized to account for these factors and dose adjustments made based on periodic assessment of the patient's clinical response and laboratory parameters [see Dosage and Administration (2.4)].",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_032",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 4,
+    "text": "The peak therapeutic effect of a given dose of Levothyroxine Sodium capsules may not be attained for 4 to 6 weeks.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_033",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 4,
+    "text": "2.3 Dosing In Specific Patient Populations",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_034",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 4,
+    "text": "Primary Hypothyroidism in Adults and in Adolescents in Whom Growth and Puberty are Complete",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_035",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 4,
+    "text": "Start Levothyroxine Sodium capsules at the full replacement dose in otherwise healthy,",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_036",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 5,
+    "text": "non-elderly individuals who have been hypothyroid for only a short time (such as a few months).The average full replacement dose of Levothyroxine Sodium capsules are approximately 1.6 mcg per kg per day (for example: 100-125 mcg per day for a 70 kg adult).",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_037",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 5,
+    "text": "Adjust the dose by 12.5 to 25 mcg increments every 4 to 6 weeks until the patient is clinically euthyroid and the serum TSH returns to normal. Doses greater than 200 mcg per day are seldom required. An inadequate response to daily doses greater than 300 mcg per day is rare and may indicate poor compliance, malabsorption, drug interactions, or a combination of these factors.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_038",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 5,
+    "text": "For elderly patients or patients with underlying cardiovascular disease, start with a dose of 12.5 to 25 mcg per day. Increase the dose every 6 to 8 weeks, as needed, until the patient is clinically euthyroid and the serum TSH returns to normal. The full replacement dose of Levothyroxine Sodium capsules may be less than 1 mcg per kg per day in elderly patients.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_039",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 5,
+    "text": "In patients with severe longstanding hypothyroidism, start with a dose of 12.5 to 25 mcg per day. Adjust the dose in 12.5 to 25 mcg increments every 2 to 4 weeks until the patient is clinically euthyroid and the serum TSH level is normalized.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_040",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 5,
+    "text": "Start Levothyroxine Sodium capsules at the full replacement dose in otherwise healthy, non-elderly individuals. Start with a lower dose in elderly patients with underlying cardiovascular disease or patients with severe longstanding hypothyroidism as described above. Serum TSH is not a reliable measure of Levothyroxine Sodium capsules dose adequacy in patients with secondary or tertiary hypothyroidism, and should not be used to monitor therapy. Use the serum free-T4 level to monitor adequacy of therapy in this patient population. Titrate Levothyroxine Sodium capsules dosing per above instructions until the patient is clinically euthyroid and the serum free-T4 level is restored to the upper half of the normal range.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_041",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 5,
+    "text": "Pediatric Dosage - Congenital or Acquired Hypothyroidism",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_042",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 5,
+    "text": "Only administer Levothyroxine Sodium capsules to pediatric patients 6 years and older who are able to swallow an intact capsule .",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_043",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 5,
+    "text": "The recommended daily dose of Levothyroxine Sodium capsules in pediatric patients with hypothyroidism is based on body weight and changes with age as described in Table 1. Start Levothyroxine Sodium capsules at the full daily dose in most pediatric patients. Start at a lower dose in children at risk for hyperactivity (see below). Monitor for clinical and laboratory response [see Dosage and Administration (2.4)] .",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_044",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 5,
+    "text": "Table 1: Levothyroxine Sodium Capsules Dosing",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_045",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 5,
+    "text": "6-12 years 4-5 mcg/kg/day Greater than 12 years but growth and puberty incomplete 2-3 mcg/kg/day",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_046",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 5,
+    "text": "Growth and puberty complete 1.6 mcg/kg/day",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_047",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 5,
+    "text": "The dose should be adjusted based on clinical response and laboratory",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_048",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 6,
+    "text": "Children at risk for hyperactivity: To minimize the risk of hyperactivity in children, start at one-fourth the recommended full replacement dose, and increase on a weekly basis by one-fourth the full-recommended replacement dose until the full recommended replacement dose is reached.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_049",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 6,
+    "text": "Preexisting Hypothyroidism: Levothyroxine Sodium capsules dose requirements may increase during pregnancy . Measure serum TSH and free-T4 as soon as pregnancy is confirmed and, at a minimum, during each trimester of pregnancy. In patients with primary hypothyroidism, maintain serum TSH in the trimester-specific reference range. For patients with serum TSH above the normal trimester specific range, increase the dose of Levothyroxine Sodium capsules by 12.5 to 25 mcg per day and measure TSH every four weeks until a stable Levothyroxine Sodium capsules dose is reached and serum TSH is within the normal trimester specific range. Reduce Levothyroxine Sodium capsules dosage to pre-pregnancy levels immediately after delivery and measure serum TSH levels 4 to 8 weeks postpartum to ensure the Levothyroxine Sodium capsules dose is appropriate.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_050",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 6,
+    "text": "New Onset Hypothyroidism: Normalize thyroid function as rapidly as possible. In patients with moderate to severe signs and symptoms of hypothyroidism, start Levothyroxine Sodium capsules at the full replacement dose (1.6 mcg per kg body weight per day). In patients with mild hypothyroidism (TSH < 10 mIU per Liter), start Levothyroxine Sodium capsules at 1.0 mcg per kg body weight per day. Evaluate serum TSH every 4 weeks and adjust Levothyroxine Sodium capsules dosage until serum TSH is within the normal trimester specific range [see Use in Specific Populations (8.1)].",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_051",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 6,
+    "text": "TSH Suppression in Well-Differentiated Thyroid Cancer",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_052",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 6,
+    "text": "Generally, TSH is suppressed to below 0.1 mIU per Liter, and this usually requires a Levothyroxine Sodium capsules dose of greater than 2 mcg per kg per day. However, in patients with high-risk tumors, the target level for TSH suppression may be lower.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_053",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 6,
+    "text": "2.4 Monitoring TSH and/or Thyroxine (T4) Levels",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_054",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 6,
+    "text": "Assess the adequacy of therapy by periodic assessment of laboratory tests and clinical evaluation. Persistent clinical and laboratory evidence of hypothyroidism despite an apparent adequate replacement dose of Levothyroxine Sodium capsules may be evidence of inadequate absorption, poor compliance, drug interactions, or a combination of these factors.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_055",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 6,
+    "text": "In adult patients with primary hypothyroidism, monitor serum TSH levels after an interval of 6 to 8 weeks after any change in dose. In patients on a stable and appropriate replacement dose, evaluate clinical and biochemical response every 6 to 12 months and whenever there is a change in the patient's clinical status.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_056",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 6,
+    "text": "In patients with congenital hypothyroidism, assess the adequacy of replacement therapy by measuring both serum TSH and total or free-T4. Monitor TSH and total or free-T4 in",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_057",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 6,
+    "text": "parameters [see Dosage and Administration (2.4) and Use in Specific Populations (8.4)].",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_058",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 7,
+    "text": "children is as follows: at 2 and 4 weeks after the initiation of treatment 2 weeks after any change in dosage, and then every 3 to 12 months thereafter following dose stabilization until growth is completed. Poor compliance or abnormal values may necessitate more frequent monitoring. Perform routine clinical examination, including assessment of mental and physical growth and development, and bone maturation at regular intervals.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_059",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 7,
+    "text": "While the general aim of therapy is to normalize the serum TSH level, TSH may not normalize in some patients due to in utero hypothyroidism causing a resetting of the pituitary-thyroid feedback. Failure of the serum T4 to increase into the upper half of the normal range within 2 weeks of initiation of Levothyroxine Sodium capsules therapy and/or of the serum TSH to decrease below 20 mIU per Liter within 4 weeks may indicate the child is not receiving adequate therapy. Assess compliance, dose of medication administered, and method of administration prior to increasing the dose of Levothyroxine Sodium capsules [see Warnings and Precautions (5.4) and Use in Specific Populations (8.4)] .",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_060",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 7,
+    "text": "Secondary (Pituitary) and Tertiary (Hypothalamic) Hypothyroidism",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_061",
+    "drug": "levothyroxine",
+    "section_title": "2 DOSAGE AND ADMINISTRATION",
+    "audience": "clinician",
+    "page": 7,
+    "text": "Monitor serum free-T4 levels maintain in the upper half of the normal range in these patients.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_062",
+    "drug": "levothyroxine",
+    "section_title": "3 DOSAGE FORMS AND STRENGTHS",
+    "audience": "clinician",
+    "page": 7,
+    "text": "Levothyroxine Sodium capsules are amber-colored, round/biconvex capsules, imprinted with a dosage strength specific letter on one side and containing a viscous amber- colored liquid and are available as follows:",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_063",
+    "drug": "levothyroxine",
+    "section_title": "3 DOSAGE FORMS AND STRENGTHS",
+    "audience": "clinician",
+    "page": 7,
+    "text": "Strength (mcg) Imprint Code 13 A 25 E 50 G 75 H 88 J 100 K 112 M 125 N 137 P 150 S 175 U 200 Y",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_064",
+    "drug": "levothyroxine",
+    "section_title": "4 CONTRAINDICATIONS",
+    "audience": "clinician",
+    "page": 7,
+    "text": "Levothyroxine Sodium capsules are contraindicated in patients with uncorrected adrenal insufficiency [see Warnings and Precautions (5.3)].",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_065",
+    "drug": "levothyroxine",
+    "section_title": "5 WARNINGS AND PRECAUTIONS",
+    "audience": "clinician",
+    "page": 8,
+    "text": "5.1 Cardiac Adverse Reactions in the Elderly and in Patients with Underlying Cardiovascular Disease",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_066",
+    "drug": "levothyroxine",
+    "section_title": "5 WARNINGS AND PRECAUTIONS",
+    "audience": "clinician",
+    "page": 8,
+    "text": "Overtreatment with levothyroxine may cause an increase in heart rate, cardiac wall thickness, and cardiac contractility and may precipitate angina or arrhythmias, particularly in patients with cardiovascular disease and in elderly patients. Initiate Levothyroxine Sodium capsules therapy in this population at lower doses than those recommended in younger individuals or in patients without cardiac disease [see Dosage and Administration (2.3) and Use in Specific Populations (8.5)].",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_067",
+    "drug": "levothyroxine",
+    "section_title": "5 WARNINGS AND PRECAUTIONS",
+    "audience": "clinician",
+    "page": 8,
+    "text": "Monitor for cardiac arrhythmias during surgical procedures in patients with coronary artery disease receiving suppressive Levothyroxine Sodium capsules therapy. Monitor patients receiving concomitant Levothyroxine Sodium capsules and sympathomimetic agents for signs and symptoms of coronary insufficiency . If cardiac symptoms develop or worsen, reduce the Levothyroxine Sodium capsules dose or withhold it for one week and restart at a lower dose.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_068",
+    "drug": "levothyroxine",
+    "section_title": "5 WARNINGS AND PRECAUTIONS",
+    "audience": "clinician",
+    "page": 8,
+    "text": "Myxedema coma is a life-threatening emergency characterized by poor circulation and hypometabolism, and may result in unpredictable absorption of levothyroxine sodium from the gastrointestinal tract. Use of oral thyroid hormone drug products is not recommended to treat myxedema coma. Administer thyroid hormone products formulated for intravenous administration to treat myxedema coma.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_069",
+    "drug": "levothyroxine",
+    "section_title": "5 WARNINGS AND PRECAUTIONS",
+    "audience": "clinician",
+    "page": 8,
+    "text": "5.3 Acute Adrenal Crisis in Patients with Concomitant Adrenal Insufficiency",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_070",
+    "drug": "levothyroxine",
+    "section_title": "5 WARNINGS AND PRECAUTIONS",
+    "audience": "clinician",
+    "page": 8,
+    "text": "Thyroid hormone increases metabolic clearance of glucocorticoids. Initiation of thyroid hormone therapy prior to initiating glucocorticoid therapy precipitate an acute adrenal crisis in patient with adrenal insufficiency. Treat patients with adrenal insufficiency with replacement glucocorticoids prior to initiating treatment with Levothyroxine Sodium capsules [see Contraindications (4)].",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_071",
+    "drug": "levothyroxine",
+    "section_title": "5 WARNINGS AND PRECAUTIONS",
+    "audience": "clinician",
+    "page": 8,
+    "text": "5.4 Prevention of Hyperthyroidism or Incomplete Treatment of Hypothyroidism",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_072",
+    "drug": "levothyroxine",
+    "section_title": "5 WARNINGS AND PRECAUTIONS",
+    "audience": "clinician",
+    "page": 8,
+    "text": "Levothyroxine Sodium capsules have a narrow therapeutic index. Over- or under- treatment with Levothyroxine Sodium capsules may have negative effects on growth and development, cardiovascular function, bone metabolism, reproductive function, cognitive function, emotional state, gastrointestinal function, and on glucose and lipid metabolism. Titrate the dose of Levothyroxine Sodium capsules carefully and monitor response to titration to avoid these effects [see Dosage and Administration (2.4)] . Monitor for the presence of drug or food interactions when using Levothyroxine Sodium capsules and adjust the dose as necessary [see Drug Interactions (7) and Clinical Pharmacology (12.3)].",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_073",
+    "drug": "levothyroxine",
+    "section_title": "5 WARNINGS AND PRECAUTIONS",
+    "audience": "clinician",
+    "page": 8,
+    "text": "Addition of levothyroxine therapy in patients with diabetes mellitus may worsen glycemic control and result in increased antidiabetic agent or insulin requirements. Carefully monitor glycemic control after starting, changing, or discontinuing thyroid hormone therapy [see Drug Interactions (7.2)] .",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_074",
+    "drug": "levothyroxine",
+    "section_title": "5 WARNINGS AND PRECAUTIONS",
+    "audience": "clinician",
+    "page": 9,
+    "text": "5.6 Decreased Bone Mineral Density Associated with Thyroid Hormone Over- Replacement",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_075",
+    "drug": "levothyroxine",
+    "section_title": "5 WARNINGS AND PRECAUTIONS",
+    "audience": "clinician",
+    "page": 9,
+    "text": "Increased bone resorption and decreased bone mineral density may occur as a result of levothyroxine over-replacement, particularly in post-menopausal women. The increased bone resorption may be associated with increased serum levels and urinary excretion of calcium and phosphorous, elevations in bone alkaline phosphatase, and suppressed serum parathyroid hormone levels. Administer the minimum dose of Levothyroxine Sodium capsules that achieves the desired clinical and biochemical response to mitigate against this risk.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_076",
+    "drug": "levothyroxine",
+    "section_title": "6 ADVERSE REACTIONS",
+    "audience": "clinician",
+    "page": 9,
+    "text": "Adverse reactions associated with Levothyroxine Sodium capsules therapy are primarily those of hyperthyroidism due to therapeutic overdosage [see Warnings and Precautions (5) and Overdosage (10)]. They include the following:",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_077",
+    "drug": "levothyroxine",
+    "section_title": "6 ADVERSE REACTIONS",
+    "audience": "clinician",
+    "page": 9,
+    "text": "General: fatigue, increased appetite, weight loss, heat intolerance, fever, excessive sweating Central nervous system: headache, hyperactivity, nervousness, anxiety, irritability, emotional lability, insomnia Musculoskeletal: tremors, muscle weakness, muscle spasm Cardiovascular: palpitations, tachycardia, arrhythmias, increased pulse and blood pressure, heart failure, angina, myocardial infarction, cardiac arrest Respiratory: dyspnea Gastrointestinal (GI): diarrhea, vomiting, abdominal cramps, elevations in liver function tests Dermatologic: hair loss, flushing, rash Endocrine: decreased bone mineral density Reproductive: menstrual irregularities, impaired fertility",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_078",
+    "drug": "levothyroxine",
+    "section_title": "6 ADVERSE REACTIONS",
+    "audience": "clinician",
+    "page": 9,
+    "text": "Seizures have been reported rarely with the institution of levothyroxine therapy.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_079",
+    "drug": "levothyroxine",
+    "section_title": "6 ADVERSE REACTIONS",
+    "audience": "clinician",
+    "page": 9,
+    "text": "Pseudotumor cerebri and slipped capital femoral epiphysis have been reported in children receiving levothyroxine therapy. Overtreatment may result in craniosynostosis in infants and premature closure of the epiphyses in children with resultant compromised adult height.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_080",
+    "drug": "levothyroxine",
+    "section_title": "6 ADVERSE REACTIONS",
+    "audience": "clinician",
+    "page": 9,
+    "text": "Hypersensitivity reactions to inactive ingredients have occurred in patients treated with thyroid hormone products. These include urticaria, pruritus, skin rash, flushing, angioedema, various GI symptoms (abdominal pain, nausea, vomiting and diarrhea), fever, arthralgia, serum sickness and wheezing. Hypersensitivity to levothyroxine itself is not known to occur.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_081",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 9,
+    "text": "7.1 Drugs Known to Affect Thyroid Hormone Pharmacokinetics",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_082",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 10,
+    "text": "Many drugs can exert effects thyroid hormone pharmacokinetics (e.g., absorption, synthesis, secretion, catabolism, protein binding, and target tissue response) and may alter the therapeutic response to levothyroxine sodium capsules (see Tables 2 to 5 below).",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_083",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 10,
+    "text": "Table 2: Drugs That May Decrease T4 Absorption",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_084",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 10,
+    "text": "Potential impact: Concurrent use may reduce the efficacy of levothyroxine sodium capsules by binding and delaying or preventing absorption, potentially resulting in hypothyroidism",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_085",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 10,
+    "text": "Calcium carbonate may form an insoluble chelate with levothyroxine, and ferrous sulfate likely forms a ferric- thyroxine complex. Administer levothyroxine sodium capsules at least 4 hours apart from these agents.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_086",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 10,
+    "text": "Monitor patients treated concomitantly with orlistat and levothyroxine sodium capsules for changes in thyroid function.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_087",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 10,
+    "text": "Bile Acid Sequestrants -Colesevelam -Cholestyramine -Colestipol Ion Exchange Resins -Kayexalate -Sevelamer",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_088",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 10,
+    "text": "Bile acid sequestrants and ion exchange resins are known to decrease levothyroxine absorption. Administer levothyroxine sodium capsules at least 4 hours prior to these drugs or monitor thyrotropin (TSH) levels.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_089",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 10,
+    "text": "Other drugs: Proton Pump Inhibitors Sucralfate Antacids - Aluminum & Magnesium Hydroxides - Simethicone",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_090",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 10,
+    "text": "Gastric acidity is an essential requirement for adequate absorption of levothyroxine. Sucralfate, antacids and proton pump inhibitors may cause hypochlorhydria, affect intragastric pH, and reduce levothyroxine absorption. Monitor patients appropriately",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_091",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 10,
+    "text": "Table 3: Drugs That May Alter T4 and Triiodothyronine (T3) Serum Transport Without Affecting Free Thyroxine",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_092",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 10,
+    "text": "Drug or Drug Class Effect Clofibrate Estrogen-containing oral",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_093",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 11,
+    "text": "contraceptives Estrogens (oral) Heroin / Methadone 5-Fluorouracil Mitotane Tamoxifen",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_094",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 11,
+    "text": "These drugs may increase serum thyroxine-binding globulin (TBG) concentration.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_095",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 11,
+    "text": "Androgens / Anabolic Steroids Asparaginase Glucocorticoids Slow-Release Nicotinic Acid",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_096",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 11,
+    "text": "These drugs may decrease serum TBG concentration.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_097",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 11,
+    "text": "Potential impact (below) : Administration of these agents with levothyroxine sodium capsules results in an initial transient increase in FT4. Continued administration results in a decrease in serum T4 and normal FT4 and TSH concentrations.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_098",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 11,
+    "text": "Salicylates inhibit binding of T4 and T3 to TBG and transthyretin. An initial increase in serum FT4 is followed by return of FT4 to normal levels with sustained therapeutic serum salicylate concentrations, although total T4 levels may decrease by as much as 30%.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_099",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 11,
+    "text": "Other drugs: Carbamazepine Furosemide (> 80 mg IV) Heparin Hydantoins Non-Steroidal Anti-inflammatory Drugs - Fenamates",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_100",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 11,
+    "text": "These drugs may cause protein- binding site displacement . Furosemide has been shown to inhibit the protein binding of T4 to TBG and albumin, causing an increased free-T4 fraction in serum. Furosemide competes for T4-binding sites on TBG, prealbumin, and albumin, so that a single high dose can acutely lower the total T4 level. Phenytoin and carbamazepine reduce serum protein binding of levothyroxine, and total and free-T4 may be reduced by 20% to 40%, but most patients have normal serum TSH levels and are clinically euthyroid. Closely monitor thyroid hormone parameters.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_101",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 11,
+    "text": "Table 4: Drugs That May Alter Hepatic Metabolism of T4",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_102",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 11,
+    "text": "Potential impact: Stimulation of hepatic microsomal drug- metabolizing enzyme activity may cause increased hepatic degradation of levothyroxine, resulting in increased levothyroxine",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_103",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 12,
+    "text": "Phenobarbital has been shown to reduce the response to thyroxine. Phenobarbital increases L-thyroxine metabolism by inducing uridine 5'-diphospho- glucuronosyltransferase (UGT) and leads to a lower T4 serum levels. Changes in thyroid status may occur if barbiturates are added or withdrawn from patients being treated for hypothyroidism. Rifampin has been shown to accelerate the metabolism of levothyroxine.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_104",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 12,
+    "text": "Table 5: Drugs That May Decrease Conversion of T4 to T3",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_105",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 12,
+    "text": "Potential impact: Administration of these enzyme inhibitors decreases the peripheral conversion of T4 to T3, leading to decreased T3 levels. However, serum T4 levels are usually normal but may occasionally be slightly increased.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_106",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 12,
+    "text": "Beta-adrenergic antagonists (e.g., Propranolol > 160 mg/day)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_107",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 12,
+    "text": "In patients treated with large doses of propranolol (> 160 mg/day), T3 and T4 levels change, TSH levels remain normal, and patients are clinically euthyroid. Actions of particular beta-adrenergic antagonists may be impaired when the hypothyroid patient is converted to the euthyroid state.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_108",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 12,
+    "text": "Glucocorticoids (e.g., Dexamethasone \u2265 4 mg/day)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_109",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 12,
+    "text": "Short-term administration of large doses of glucocorticoids may decrease serum T3 concentrations by 30% with minimal change in serum T4 levels. However, long-term glucocorticoid therapy may result in slightly decreased T3 and T4 levels due to decreased TBG production (see Table 3 above). Amiodarone inhibits peripheral conversion of levothyroxine (T4) to triiodothyronine (T3) and may",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_110",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 13,
+    "text": "cause isolated biochemical changes (increase in serum free- T4, and decrease or normal free- T3) in clinically euthyroid patients.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_111",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 13,
+    "text": "Addition of levothyroxine sodium capsules therapy in patients with diabetes mellitus may worsen glycemic control and result in increased antidiabetic agent or insulin requirements. Careful monitor glycemic control, especially when thyroid therapy is started, changed, or discontinued [see Warnings and Precautions (5.5)] .",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_112",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 13,
+    "text": "Levothyroxine sodium capsules increase the response to oral anticoagulant therapy. Therefore, a decrease in the dose of anticoagulant may be warranted with correction of the hypothyroid state or when the levothyroxine sodium capsules dose is increased. Closely monitor coagulation tests to permit appropriate and timely dosage adjustments.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_113",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 13,
+    "text": "Levothyroxine sodium capsules may reduce the therapeutic effects of digitalis glycosides. Serum digitalis glycoside levels may decrease when a hypothyroid patient becomes euthyroid, necessitating an increase in the dose of digitalis glycosides.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_114",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 13,
+    "text": "Concurrent use of tricyclic (e.g., Amitriptyline) or tetracyclic (e.g., Maprotiline) antidepressants and levothyroxine sodium capsules may increase the therapeutic and toxic effects of both drugs, possibly due to increased receptor sensitivity to catecholamines. Toxic effects may include increased risk of cardiac arrhythmias and central nervous system stimulation. Levothyroxine sodium capsules may accelerate the onset of action of tricyclics. Administration of sertraline in patients stabilized on levothyroxine sodium capsules may result in increased levothyroxine sodium capsules requirements.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_115",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 13,
+    "text": "Concurrent use of ketamine and levothyroxine sodium capsules may produce marked hypertension and tachycardia. Closely monitor blood pressure and heart rate in these patients.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_116",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 13,
+    "text": "Concurrent use of sympathomimetics and levothyroxine sodium capsules may increase the effects of sympathomimetics or thyroid hormone. Thyroid hormones may increase the risk of coronary insufficiency when sympathomimetic agents are administered to patients with coronary artery disease.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_117",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 13,
+    "text": "Concurrent use of tyrosine-kinase inhibitors such as imatinib may cause",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_118",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 14,
+    "text": "hypothyroidism. Closely monitor TSH levels in such patients.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_119",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 14,
+    "text": "Consumption of certain foods may affect levothyroxine sodium capsules absorption thereby necessitating adjustments in dosing [see Dosage and Administration (2.1)] . Soybean flour (infant formula), cottonseed meal, walnuts, and dietary fiber may bind and decrease the absorption of levothyroxine sodium capsules from the GI tract. Grapefruit juice may delay the absorption of levothyroxine and reduce its bioavailability.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_120",
+    "drug": "levothyroxine",
+    "section_title": "7 DRUG INTERACTIONS",
+    "audience": "clinician",
+    "page": 14,
+    "text": "Consider changes in TBG concentration when interpreting T4 and T3 values. Measure and evaluate unbound (free) hormone and/or determine the free T4 index (FT4I) in this circumstance. Pregnancy, infectious hepatitis, estrogens, estrogen-containing oral contraceptives, and acute intermittent porphyria increase TBG concentrations. Nephrosis, severe hypoproteinemia, severe liver disease, acromegaly, androgens and corticosteroids decrease TBG concentration. Familial hyper- or hypo-thyroxine binding globulinemias have been described, with the incidence of TBG deficiency approximating 1 in 9000.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_121",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 14,
+    "text": "Experience with levothyroxine use in pregnant women, including data from post- marketing studies, have not reported increased rates of major birth defects or miscarriages [see Data]. There are risks to the mother and fetus associated with untreated hypothyroidism in pregnancy. Since thyroid-stimulating hormone (TSH) levels may increase during pregnancy, TSH should be monitored and levothyroxine sodium capsules dosage adjusted during pregnancy [see Clinical Considerations] . There are no animal studies conducted with levothyroxine during pregnancy. Levothyroxine sodium capsules should not be discontinued during pregnancy and hypothyroidism diagnosed during pregnancy should be promptly treated.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_122",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 14,
+    "text": "The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_123",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 14,
+    "text": "Disease-Associated Maternal and/or Embryo/Fetal Risk",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_124",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 14,
+    "text": "Maternal hypothyroidism during pregnancy is associated with a higher rate of complications, including spontaneous abortion, gestational hypertension, pre-eclampsia, stillbirth, and premature delivery. Untreated maternal hypothyroidism may have an adverse effect on fetal neurocognitive development.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_125",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 14,
+    "text": "Dose Adjustments During Pregnancy and the Postpartum Period",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_126",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 14,
+    "text": "Pregnancy may increase levothyroxine sodium capsules requirements. Serum TSH level",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_127",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 15,
+    "text": "should be monitored and the levothyroxine sodium capsules dosage adjusted during pregnancy. Since postpartum TSH levels are similar to preconception values, the levothyroxine sodium capsules dosage should return to the pre-pregnancy dose immediately after delivery [see Dosage and Administration (2.3)].",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_128",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 15,
+    "text": "Levothyroxine is approved for use as a replacement therapy for hypothyroidism. There is a long experience of levothyroxine use in pregnant women, including data from post- marketing studies that have not reported increased rates of fetal malformations, miscarriages or other adverse maternal or fetal outcomes associated with levothyroxine use in pregnant women.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_129",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 15,
+    "text": "Limited published studies report that levothyroxine is present in human milk. However, there is insufficient information to determine the effects of levothyroxine on the breastfed infant and no available information on the effects of levothyroxine on milk production. Adequate levothyroxine treatment during lactation may normalize milk production in hypothyroid lactating mothers. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for Levothyroxine Sodium capsules and any potential adverse effects on the breastfed infant from levothyroxine sodium capsules or from the underlying maternal condition.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_130",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 15,
+    "text": "Levothyroxine Sodium capsules are indicated for use in pediatric patients 6 years and older. The initial dose of Levothyroxine Sodium capsules varies with age and body weight. Dosing adjustments are based on an assessment of the individual patient's clinical and laboratory parameters [see Dosage and Administration (2.3, 2.4)]",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_131",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 15,
+    "text": "In children in whom a diagnosis of permanent hypothyroidism has not been established, discontinue Levothyroxine Sodium capsules administration for a trial period. Obtain serum T4 and TSH levels at the end of the trial period, and use laboratory test results and clinical assessments to guide diagnosis and treatment, if warranted.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_132",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 15,
+    "text": "Congenital Hypothyroidism [see Dosage and Administration (2.3, 2.4)]",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_133",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 15,
+    "text": "Rapid restoration of normal serum T4 concentrations is essential for preventing the adverse effects of congenital hypothyroidism on intellectual development as well as on overall physical growth and maturation. Therefore, initiate levothyroxine therapy immediately upon diagnosis. Levothyroxine is generally continued for life in these patients.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_134",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 15,
+    "text": "Closely monitor children during the first two weeks of Levothyroxine Sodium capsules therapy for cardiac overload and arrhythmias.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_135",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 15,
+    "text": "Closely monitor patients to avoid undertreatment and overtreatment. Undertreatment may have deleterious effects on intellectual development and linear growth. Overtreatment may adversely affect the tempo of brain maturation and accelerate the bone age with resultant premature closure of the epiphyses and compromised adult",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_136",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 16,
+    "text": "Acquired Hypothyroidism in Pediatric Patients",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_137",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 16,
+    "text": "Closely monitor patients to avoid undertreatment and overtreatment. Undertreatment may result in poor school performance due to impaired concentration and slowed mentation and in reduced adult height. Overtreatment may accelerate the bone age and result in premature epiphyseal closure and compromised adult stature.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_138",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 16,
+    "text": "Treated children may manifest a period of catch-up growth, which may be adequate in some cases to normalize adult height. In children with severe or prolonged hypothyroidism, catch-up growth may not be adequate to normalize adult height.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_139",
+    "drug": "levothyroxine",
+    "section_title": "8 USE IN SPECIFIC POPULATIONS",
+    "audience": "clinician",
+    "page": 16,
+    "text": "Because of the increased prevalence of cardiovascular disease among the elderly, initiate Levothyroxine Sodium capsules therapy at less than the full replacement dose [ see Warnings and Precautions (5.1) and Dosage and Administration (2.3)]. Atrial arrhythmias can occur in elderly patients. Atrial fibrillation is the most common of the arrhythmias observed with levothyroxine overtreatment in the elderly .",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_140",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 16,
+    "text": "The signs and symptoms of overdosage are those of hyperthyroidism [see Warnings and Precautions (5) and Adverse Reactions (6)]. In addition, confusion and disorientation may occur. Cerebral embolism, shock, coma, and death have been reported. Seizures occurred in a 3-year-old child ingesting 3.6 mg of levothyroxine. Symptoms may not necessarily be evident or may not appear until several days after ingestion of levothyroxine sodium.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_141",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 16,
+    "text": "Reduce the levothyroxine sodium capsules dose or discontinue temporarily if signs or symptoms of overdosage occur. Initiate appropriate supportive treatment as dictated by the patient's medical status.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_142",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 16,
+    "text": "For current information on the management of poisoning or overdosage, contact the National Poison Control Center at 1-800-222-1222 or www.poison.org.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_143",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 16,
+    "text": "Levothyroxine Sodium capsules for oral use contain synthetic L-3,3',5,5'- tetraiodothyronine sodium salt [levothyroxine (T ) sodium]. Synthetic T4 is chemically identical to that produced in the human thyroid gland. Levothyroxine (T4) sodium has an empirical formula of C H I NNaO \u2219 x H O (where x = 5), molecular weight of 798.86 g/mol (anhydrous), and structural formula as shown:",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_144",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 17,
+    "text": "Levothyroxine Sodium capsules are amber-colored, round/biconvex capsules containing a viscous amber-colored liquid.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_145",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 17,
+    "text": "The inactive ingredients in Levothyroxine Sodium capsules are gelatin, glycerin and water.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_146",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 17,
+    "text": "Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA. This hormone nuclear receptor complex activates gene transcription and synthesis of messenger RNA and cytoplasmic proteins.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_147",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 17,
+    "text": "The physiological actions of thyroid hormones are produced predominantly by T3, the majority of which (approximately 80%) is derived from T4 by deiodination in peripheral tissues.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_148",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 17,
+    "text": "Oral levothyroxine sodium is a synthetic T4 hormone that exerts the same physiologic effect as endogenous T4, thereby maintaining normal T4 levels when a deficiency is present.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_149",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 17,
+    "text": "Absorption of orally administered T from the gastrointestinal (GI) tract ranges from 40% to 80%. The majority of the levothyroxine dose is absorbed from the jejunum and upper ileum. T4 absorption is increased by fasting, and decreased in malabsorption syndromes and by certain foods such as soybeans. Dietary fiber decreases the bioavailability of T4. Absorption may also decrease with age. In addition, many drugs and foods affect T4 absorption. [see Drug Interactions (7)]",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_150",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 17,
+    "text": "Circulating thyroid hormones are greater than 99% bound to plasma proteins, including thyroxine-binding globulin (TBG), thyroxine-binding prealbumin (TBPA), and thyroxine- binding albumin (TBA), whose capacities and affinities vary for each hormone. The higher affinity of both TBG and TBPA for T4 partially explains the higher serum levels, slower metabolic clearance, and longer half-life of T4 compared to T3. Protein-bound thyroid hormones exist in reverse equilibrium with small amounts of free hormone. Only unbound hormone is metabolically active. Many drugs and physiologic conditions affect the binding of thyroid hormones to serum proteins [see Drug Interactions (7)]. Thyroid hormones do not readily cross the placental barrier [see Use in Specific Populations (8.1)].",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_151",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 18,
+    "text": "T4 is slowly eliminated (see Table 6) . The major pathway of thyroid hormone metabolism is through sequential deiodination. Approximately 80% of circulating T3 is derived from peripheral T4 by monodeiodination. The liver is the major site of degradation for both T4 and T3, with T4 deiodination also occurring at a number of additional sites, including the kidney and other tissues. Approximately 80% of the daily dose of T4 is deiodinated to yield equal amounts of T3 and reverse T3 (rT3). T3 and rT3 are further deiodinated to diiodothyronine. Thyroid hormones are also metabolized via conjugation with glucuronides and sulfates and excreted directly into the bile and gut where they undergo enterohepatic recirculation.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_152",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 18,
+    "text": "Thyroid hormones are primarily eliminated by the kidneys. A portion of the conjugated hormone reaches the colon unchanged and is eliminated in the feces. Approximately 20% of T4 is eliminated in the stool. Urinary excretion of T4 decreases with age.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_153",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 18,
+    "text": "Table 6: Pharmacokinetic Parameters of Thyroid",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_154",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 18,
+    "text": "13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_155",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 18,
+    "text": "Animal studies have not been performed to evaluate the carcinogenic potential, mutagenic potential or effects on fertility of levothyroxine sodium.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_156",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 18,
+    "text": "Store at 25\u00b0C (77\u00b0F); excursions permitted to 15\u00b0-30\u00b0C (59-86\u00b0F) [see USP Controlled Room Temperature]. Levothyroxine Sodium capsules should be protected from heat, light and moisture.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_157",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 18,
+    "text": "Do not separate the individual cavities containing the drug from the intact blister as important information may be lost (i.e., manufacturer/distributor names, distributor contact phone number, lot number, and expiration date), and do not remove the individual capsules from blister packaging until ready to use.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_158",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 18,
+    "text": "Levothyroxine Sodium capsules are amber-colored, round/biconvex capsules, imprinted with a dosage strength specific letter on one side and containing a viscous amber-",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_159",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 18,
+    "text": "Includes TBG, TBPA and TBA. 3 \u2013 4 days in hyperthyroidism, 9 \u2013 10 days in hypothyroidism.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_160",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 19,
+    "text": "colored liquid. They are supplied as follows:",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_161",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 19,
+    "text": "Table 7: Levothyroxine Sodium Capsules Packaging",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_162",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 19,
+    "text": "Description - Boxes of 30 capsules, consisting of 3",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_163",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 19,
+    "text": "13 Green A 82347-0005-4 25 Orange E 82347-0010-4 50 White G 82347-0015-4 75 Purple H 82347-0020-4 88 Olive J 82347-0025-4 100 Yellow K 82347-0030-4 112 Rose M 82347-0035-4 125 Brown N 82347-0040-4 137 Turquoise P 82347-0045-4 150 Blue S 82347-0050-4 175 Lilac U 82347-0055-4 200 Pink Y 82347-0060-4",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_164",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 19,
+    "text": "The dosage strength on each box is clearly identified in several locations, and is associated with a distinct color. The color of the circles on the blister is the same color as on the box. Each blister pack contains 10 capsules placed in individual cavities labeled with the dosage strength and the product name (Levothyroxine Sodium capsules).",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_165",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 19,
+    "text": "Store at 25\u00b0C (77\u00b0F); excursions permitted to 15\u00b0-30\u00b0C (59-86\u00b0F) [see USP Controlled Room Temperature]. Levothyroxine Sodium capsules should be protected from heat, light and moisture.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_166",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 19,
+    "text": "Do not separate the individual cavities containing the drug from the intact blister as important information may be lost (i.e., manufacturer/distributor names, distributor contact phone number, lot number, and expiration date), and do not remove the individual capsules from blister packaging until ready to use.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_167",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 19,
+    "text": "Advise the patient and/or the caregiver to read the FDA-approved patient labeling (Patient Information Sheet).",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_168",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 19,
+    "text": "Instruct patients to notify their healthcare provider if they experience any of the following symptoms: rapid or irregular heartbeat, chest pain, shortness of breath, leg cramps, headache, nervousness, irritability, sleeplessness, tremors, change in appetite, weight loss, vomiting, diarrhea, excessive sweating, heat intolerance, fever, changes in menstrual periods, hives or skin rash, or any other unusual medical event.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_169",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 19,
+    "text": "Shown on box and blister packing, not on individual capsules.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_170",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 20,
+    "text": "Inform patients that partial hair loss may occur rarely during the first few months of Levothyroxine Sodium capsules therapy, but this is usually temporary.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_171",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 20,
+    "text": "Instruct patients to take Levothyroxine Sodium capsules only as directed by their healthcare provider. Instruct patients to take Levothyroxine Sodium capsules one-half to one hour before breakfast. Inform patients that agents such as iron and calcium supplements and antacids can decrease the absorption of levothyroxine. Instruct patients not to take Levothyroxine Sodium capsules within 4 hours of these agents. Instruct patients that Levothyroxine Sodium capsules should be swallowed whole and never be cut, crushed, or chewed. To assist with identifying the name and strength of each Levothyroxine Sodium capsule, instruct patients not to remove capsules from the blisters in advance, particularly if they are taking multiple strengths. Instruct patients to notify their healthcare provider should they become pregnant or are thinking of becoming pregnant while taking Levothyroxine Sodium capsules.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_172",
+    "drug": "levothyroxine",
+    "section_title": "10 OVERDOSAGE",
+    "audience": "clinician",
+    "page": 20,
+    "text": "Inform patients that it may take several weeks before they notice an improvement in symptoms. Inform patients that the levothyroxine in Levothyroxine Sodium capsules are intended to replace a hormone that is normally produced by the thyroid gland. Generally, replacement therapy is to be taken for life. Inform patients that Levothyroxine Sodium capsules should not be used as a primary or adjunctive therapy in a weight control program. Instruct patients to notify their healthcare provider if they are taking any other medications, including prescription and over-the-counter preparations [see Drug Interactions (7)] . Instruct patients to notify their healthcare provider of any other medical conditions, particularly heart disease, diabetes, clotting disorders, and adrenal or pituitary gland problems, as the dose of medications used to control these other conditions may need to be adjusted while taking Levothyroxine Sodium capsules. If they have diabetes, instruct patients to monitor their blood and/or urinary glucose levels as directed by their physician and immediately report any changes to their physician. If patients are taking anticoagulants, their clotting status should be checked frequently. Instruct patients to notify their physician or dentist that they are taking Levothyroxine Sodium capsules prior to any surgery.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_173",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 21,
+    "text": "for oral use What is the most important information I should know about Levothyroxine Sodium capsules?",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_174",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 21,
+    "text": "Do not use Levothyroxine Sodium capsules to treat weight problems or weight loss. Do not take more Levothyroxine Sodium capsules than your doctor prescribes for you to take. Over dosage or taking too much Levothyroxine Sodium capsules may cause life-threatening side effects or death.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_175",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 21,
+    "text": "Levothyroxine Sodium capsules are a prescription medicine that contains a hormone called levothyroxine which is normally produced by the thyroid gland. Levothyroxine Sodium capsules are used to treat adults and children 6 years of age or older:",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_176",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 21,
+    "text": "to replace or give extra levothyroxine in people whose thyroid does not produce enough of this hormone. who need surgery and radioiodine therapy to manage a type of thyroid cancer called thyroid-dependent well-differentiated thyroid cancer.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_177",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 21,
+    "text": "Levothyroxine Sodium capsules should not be used to treat people who are recovering from swelling of the thyroid gland (thyroiditis) and whose bodies do not produce enough levothyroxine for a short time.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_178",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 21,
+    "text": "Levothyroxine Sodium capsules are unsuitable for children less than 6 years of age or who may be unable to swallow an intact capsule. Do not take Levothyroxine Sodium capsules:",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_179",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 21,
+    "text": "if your adrenal glands are not working well and you have not been treated for this problem.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_180",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 21,
+    "text": "Before you take Levothyroxine Sodium capsules, tell your doctor about all of your medical conditions, including if you:",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_181",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 21,
+    "text": "have or had heart problems. have or had thyroid nodules. have kidney or pituitary gland problems. have any food or drug allergies. have a low red blood cell count (anemia). have diabetes. have weak bones (osteoporosis). have or had a history of blood clotting problems. have recently received radiation therapy with iodine (such as I-131).",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_182",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 22,
+    "text": "are pregnant or plan to become pregnant. Levothyroxine Sodium capsules may harm your unborn baby. Your doctor may need to change your Levothyroxine Sodium capsules dose while you are pregnant. are breastfeeding. Levothyroxine sodium capsules can pass into your milk. Talk to your doctor about the best way to feed your baby if you take Levothyroxine Sodium capsules.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_183",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 22,
+    "text": "Tell your doctor about all the medicines you take including prescription and over-the- counter medicines, vitamins, and herbal supplements. Levothyroxine Sodium capsules may affect the way other medicines work, and other medicines may affect how Levothyroxine Sodium capsules works. You can ask your doctor or pharmacist for a list of medicines that interact with Levothyroxine Sodium capsules. How should I take Levothyroxine Sodium capsules?",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_184",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 22,
+    "text": "Take Levothyroxine Sodium capsules exactly as your doctor tells you to take it. Your doctor will tell you how much Levothyroxine Sodium capsules to take each day. Swallow Levothyroxine Sodium capsules whole. Do not cut, crush, or chew Levothyroxine Sodium capsules before swallowing. If you or your child cannot swallow Levothyroxine Sodium capsules whole, tell your doctor. You may need a different medicine. Your doctor may change your dose, if needed. Take your dose of Levothyroxine Sodium capsules 1 time each day, 30 minutes to 1 hour before breakfast, on an empty stomach. Certain medicines can interfere with how Levothyroxine Sodium capsules are absorbed by your body. Take Levothyroxine Sodium capsules:",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_185",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 22,
+    "text": "at least 4 hours before or after you take medicines that contain calcium carbonate or iron (ferrous sulfate). at least 4 hours before you take medicines that contain bile acid sequestrants or ion exchange resins. Know the medicines that you take. Ask your doctor or pharmacist for a list of these medicines, if you are not sure. Certain foods including soybean flour, cotton seed meal, walnuts, and dietary fiber can affect your treatment and dose of Levothyroxine Sodium capsules. Talk to your doctor if you eat or drink these foods. Do not remove Levothyroxine Sodium capsules from the original blister package until you are ready to take them. Your doctor should do certain blood tests while you are taking Levothyroxine Sodium capsules and may change your daily dose of Levothyroxine Sodium capsules as needed. You should not stop taking Levothyroxine Sodium capsules or change your dose unless your doctor tells you to. It may take weeks before you notice your symptoms getting better. Keep using this medicine even if you feel well. If you take too much Levothyroxine Sodium capsules or overdose, call your doctor or poison control center at 1-800-222-1222, or go to the nearest hospital emergency room right away.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_186",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 22,
+    "text": "What are the possible side effects of Levothyroxine Sodium capsules?",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_187",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 22,
+    "text": "Levothyroxine Sodium capsules may cause serious side effects, including:",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_188",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 22,
+    "text": "heart problems. You may experience an increased heart rate, chest pain",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_189",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 23,
+    "text": "and irregular heartbeat. Your risk of developing heart problems may be greater if you are elderly, have heart problems, or if you take too much Levothyroxine Sodium capsules. Your doctor may reduce your dose or stop treatment with Levothyroxine Sodium capsules for a while if you develop heart problems. worsening diabetic control. If you are diabetic, it may be harder to control your blood sugar levels causing hyperglycemia while taking Levothyroxine Sodium capsules. Check your blood sugar levels closely after starting, changing, or stopping treatment with Levothyroxine Sodium capsules. Your doctor may have to change your diabetes treatment plan. weak or brittle bones. Your risk of developing weak or brittle bones may be greater if you are post-menopausal or you take too much Levothyroxine Sodium capsules.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_190",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 23,
+    "text": "The most common side effects of Levothyroxine Sodium capsules include:",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_191",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 23,
+    "text": "irregular heartbeat chest pain shortness of breath leg cramps headache nervousness hives or skin rash",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_192",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 23,
+    "text": "irritability sleep problems (insomnia) tremors muscle weakness change in appetite weight loss",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_193",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 23,
+    "text": "vomiting diarrhea sweating a lot heat intolerance fever changes in menstrual period",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_194",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 23,
+    "text": "partial hair loss during the first months of treatment with Levothyroxine Sodium capsules. This usually lasts a short period of time (temporary).",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_195",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 23,
+    "text": "These are not all the possible side effects of Levothyroxine Sodium capsules. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1- 800-FDA-1088.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_196",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 23,
+    "text": "You may also report side effects to YARAL Pharma, Inc at 1-866-218-9009 or www.fda.gov/medwatch. How should I store Levothyroxine Sodium capsules?",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_197",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 23,
+    "text": "Store Levothyroxine Sodium capsules at room temperature between 68\u00b0F to 77\u00b0F (20\u00b0C to 25\u00b0C). Store Levothyroxine Sodium capsules away from heat, light, and moisture. Keep Levothyroxine Sodium capsules in the original blister pack until you are ready to use it.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_198",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 23,
+    "text": "Keep Levothyroxine Sodium capsules and all medicines out of the reach of children. General information about the safe and effective use of Levothyroxine Sodium capsules",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_199",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 23,
+    "text": "Medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet. Do not use Levothyroxine Sodium capsules for a condition for which it was not prescribed. Do not give Levothyroxine Sodium capsules to other people, even if they have the same symptoms that you have. It may harm them. You can ask your pharmacist or doctor for information about Levothyroxine Sodium capsules that is written for health professionals.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_200",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 24,
+    "text": "This Patient Information has been approved by the U.S. Food and Drug Administration",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_201",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 24,
+    "text": "What are the ingredients in Levothyroxine Sodium capsules?",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_202",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 24,
+    "text": "Inactive ingredients: gelatin, glycerin, and water",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_203",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 24,
+    "text": "Manufactured by: IBSA Institut Biochimique SA, 6912 Pazzallo, Switzerland; Distributed by: YARAL Pharma, Parsippany, NJ 07054, USA",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_204",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 24,
+    "text": "For more information, call 1-866-218-9009.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_205",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 24,
+    "text": "PRINCIPAL DISPLAY PANEL - 13 mcg Capsule Blister Pack Carton",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_206",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 24,
+    "text": "Do not remove individual capsules from blister packaging until ready to use",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_207",
+    "drug": "levothyroxine",
+    "section_title": "PATIENT INFORMATION",
+    "audience": "patient",
+    "page": 24,
+    "text": "Swallow capsule whole. Do not cut, crush, or chew.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_208",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 25,
+    "text": "PRINCIPAL DISPLAY PANEL - 25 mcg Capsule Blister Pack Carton",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_209",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 25,
+    "text": "Do not remove individual capsules from blister packaging until ready to use",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_210",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 25,
+    "text": "Swallow capsule whole. Do not cut, crush, or chew.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_211",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 27,
+    "text": "PRINCIPAL DISPLAY PANEL - 50 mcg Capsule Blister Pack Carton",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_212",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 27,
+    "text": "Do not remove individual capsules from blister packaging until ready to use",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_213",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 27,
+    "text": "Swallow capsule whole. Do not cut, crush, or chew.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_214",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 28,
+    "text": "PRINCIPAL DISPLAY PANEL - 75 mcg Capsule Blister Pack Carton",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_215",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 28,
+    "text": "Do not remove individual capsules from blister packaging until ready to use",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_216",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 28,
+    "text": "Swallow capsule whole. Do not cut, crush, or chew.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_217",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 29,
+    "text": "PRINCIPAL DISPLAY PANEL - 88 mcg Capsule Blister Pack Carton",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_218",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 29,
+    "text": "Do not remove individual capsules from blister packaging until ready to use",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_219",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 30,
+    "text": "Swallow capsule whole. Do not cut, crush, or chew.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_220",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 30,
+    "text": "Rx Only YARAL Pharma 3 blisters x 10 capsules",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_221",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 31,
+    "text": "PRINCIPAL DISPLAY PANEL - 100 mcg Capsule Blister Pack Carton",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_222",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 31,
+    "text": "Do not remove individual capsules from blister packaging until ready to use",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_223",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 31,
+    "text": "Swallow capsule whole. Do not cut, crush, or chew.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_224",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 32,
+    "text": "PRINCIPAL DISPLAY PANEL - 112 mcg Capsule Blister Pack Carton",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_225",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 32,
+    "text": "Do not remove individual capsules from blister packaging until ready to use",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_226",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 32,
+    "text": "Swallow capsule whole. Do not cut, crush, or chew.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_227",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 33,
+    "text": "PRINCIPAL DISPLAY PANEL - 125 mcg Capsule Blister Pack Carton",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_228",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 34,
+    "text": "Do not remove individual capsules from blister packaging until ready to use",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_229",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 34,
+    "text": "Swallow capsule whole. Do not cut, crush, or chew.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_230",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 35,
+    "text": "PRINCIPAL DISPLAY PANEL - 137 mcg Capsule Blister Pack Carton",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_231",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 35,
+    "text": "Do not remove individual capsules from blister packaging until ready to use",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_232",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 35,
+    "text": "Swallow capsule whole. Do not cut, crush, or chew.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_233",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 36,
+    "text": "PRINCIPAL DISPLAY PANEL - 150 mcg Capsule Blister Pack Carton",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_234",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 36,
+    "text": "Do not remove individual capsules from blister packaging until ready to use",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_235",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 36,
+    "text": "Swallow capsule whole. Do not cut, crush, or chew.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_236",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 38,
+    "text": "PRINCIPAL DISPLAY PANEL - 175 mcg Capsule Blister Pack Carton",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_237",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 38,
+    "text": "Do not remove individual capsules from blister packaging until ready to use",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_238",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 38,
+    "text": "Swallow capsule whole. Do not cut, crush, or chew.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_239",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 39,
+    "text": "PRINCIPAL DISPLAY PANEL - 200 mcg Capsule Blister Pack Carton",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_240",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 39,
+    "text": "Do not remove individual capsules from blister packaging until ready to use",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_241",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 39,
+    "text": "Swallow capsule whole. Do not cut, crush, or chew.",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_242",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 40,
+    "text": "Product Type HUMAN PRESCRIPTION DRUG Item Code (Source) NDC:82347-0055",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_243",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 41,
+    "text": "Ingredient Name Basis of Strength Strength",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_244",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 41,
+    "text": "LEVOTHYROXINE SODIUM (UNII: 9J765S329G) (LEVOTHYROXINE - UNII:Q51BO43MG4)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_245",
+    "drug": "levothyroxine",
+    "section_title": "3 blisters x 10 capsules",
+    "audience": "clinician",
+    "page": 41,
+    "text": "# Item Code Package Description Marketing Start",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_246",
+    "drug": "levothyroxine",
+    "section_title": "1 NDC:82347- 0055-4 3 in 1 CARTON 03/01/2023",
+    "audience": "clinician",
+    "page": 41,
+    "text": "1 NDC:82347- 0055-4 3 in 1 CARTON 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_247",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 41,
+    "text": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_248",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 41,
+    "text": "NDA authorized generic NDA021924 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_249",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 41,
+    "text": "Product Type HUMAN PRESCRIPTION DRUG Item Code (Source) NDC:82347-0060",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_250",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 41,
+    "text": "Ingredient Name Basis of Strength Strength",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_251",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 42,
+    "text": "LEVOTHYROXINE SODIUM (UNII: 9J765S329G) (LEVOTHYROXINE - UNII:Q51BO43MG4)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_252",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 42,
+    "text": "# Item Code Package Description Marketing Start",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_253",
+    "drug": "levothyroxine",
+    "section_title": "1 NDC:82347- 0060-4 3 in 1 CARTON 03/01/2023",
+    "audience": "clinician",
+    "page": 42,
+    "text": "1 NDC:82347- 0060-4 3 in 1 CARTON 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_254",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 42,
+    "text": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_255",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 42,
+    "text": "NDA authorized generic NDA021924 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_256",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 42,
+    "text": "Product Type HUMAN PRESCRIPTION DRUG Item Code (Source) NDC:82347-0005",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_257",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 42,
+    "text": "Ingredient Name Basis of Strength Strength",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_258",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 42,
+    "text": "LEVOTHYROXINE SODIUM (UNII: 9J765S329G) (LEVOTHYROXINE - UNII:Q51BO43MG4)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_259",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 43,
+    "text": "# Item Code Package Description Marketing Start",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_260",
+    "drug": "levothyroxine",
+    "section_title": "1 NDC:82347- 0005-4 3 in 1 CARTON 03/01/2023",
+    "audience": "clinician",
+    "page": 43,
+    "text": "1 NDC:82347- 0005-4 3 in 1 CARTON 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_261",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 43,
+    "text": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_262",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 43,
+    "text": "NDA authorized generic NDA021924 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_263",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 43,
+    "text": "Product Type HUMAN PRESCRIPTION DRUG Item Code (Source) NDC:82347-0010",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_264",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 43,
+    "text": "Ingredient Name Basis of Strength Strength",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_265",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 43,
+    "text": "LEVOTHYROXINE SODIUM (UNII: 9J765S329G) (LEVOTHYROXINE - UNII:Q51BO43MG4)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_266",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 44,
+    "text": "# Item Code Package Description Marketing Start",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_267",
+    "drug": "levothyroxine",
+    "section_title": "1 NDC:82347- 0010-4 3 in 1 CARTON 03/01/2023",
+    "audience": "clinician",
+    "page": 44,
+    "text": "1 NDC:82347- 0010-4 3 in 1 CARTON 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_268",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 44,
+    "text": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_269",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 44,
+    "text": "NDA authorized generic NDA021924 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_270",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 44,
+    "text": "Product Type HUMAN PRESCRIPTION DRUG Item Code (Source) NDC:82347-0015",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_271",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 44,
+    "text": "Ingredient Name Basis of Strength Strength",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_272",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 44,
+    "text": "LEVOTHYROXINE SODIUM (UNII: 9J765S329G) (LEVOTHYROXINE - UNII:Q51BO43MG4)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_273",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 45,
+    "text": "# Item Code Package Description Marketing Start",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_274",
+    "drug": "levothyroxine",
+    "section_title": "1 NDC:82347- 0015-4 3 in 1 CARTON 03/01/2023",
+    "audience": "clinician",
+    "page": 45,
+    "text": "1 NDC:82347- 0015-4 3 in 1 CARTON 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_275",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 45,
+    "text": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_276",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 45,
+    "text": "NDA authorized generic NDA021924 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_277",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 45,
+    "text": "Product Type HUMAN PRESCRIPTION DRUG Item Code (Source) NDC:82347-0020",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_278",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 45,
+    "text": "Ingredient Name Basis of Strength Strength",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_279",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 45,
+    "text": "LEVOTHYROXINE SODIUM (UNII: 9J765S329G) (LEVOTHYROXINE - UNII:Q51BO43MG4)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_280",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 46,
+    "text": "# Item Code Package Description Marketing Start",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_281",
+    "drug": "levothyroxine",
+    "section_title": "1 NDC:82347- 0020-4 3 in 1 CARTON 03/01/2023",
+    "audience": "clinician",
+    "page": 46,
+    "text": "1 NDC:82347- 0020-4 3 in 1 CARTON 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_282",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 46,
+    "text": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_283",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 46,
+    "text": "NDA authorized generic NDA021924 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_284",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 46,
+    "text": "Product Type HUMAN PRESCRIPTION DRUG Item Code (Source) NDC:82347-0025",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_285",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 46,
+    "text": "Ingredient Name Basis of Strength Strength",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_286",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 46,
+    "text": "LEVOTHYROXINE SODIUM (UNII: 9J765S329G) (LEVOTHYROXINE - UNII:Q51BO43MG4)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_287",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 46,
+    "text": "# Item Code Package Description Marketing Start Marketing End",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_288",
+    "drug": "levothyroxine",
+    "section_title": "1 NDC:82347- 0025-4 3 in 1 CARTON 03/01/2023",
+    "audience": "clinician",
+    "page": 47,
+    "text": "1 NDC:82347- 0025-4 3 in 1 CARTON 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_289",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 47,
+    "text": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_290",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 47,
+    "text": "NDA authorized generic NDA021924 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_291",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 47,
+    "text": "Product Type HUMAN PRESCRIPTION DRUG Item Code (Source) NDC:82347-0030",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_292",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 47,
+    "text": "Ingredient Name Basis of Strength Strength",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_293",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 47,
+    "text": "LEVOTHYROXINE SODIUM (UNII: 9J765S329G) (LEVOTHYROXINE - UNII:Q51BO43MG4)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_294",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 47,
+    "text": "# Item Code Package Description Marketing Start",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_295",
+    "drug": "levothyroxine",
+    "section_title": "1 NDC:82347- 0030-4 3 in 1 CARTON 03/01/2023",
+    "audience": "clinician",
+    "page": 47,
+    "text": "1 NDC:82347- 0030-4 3 in 1 CARTON 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_296",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 47,
+    "text": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_297",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 48,
+    "text": "NDA authorized generic NDA021924 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_298",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 48,
+    "text": "Product Type HUMAN PRESCRIPTION DRUG Item Code (Source) NDC:82347-0035",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_299",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 48,
+    "text": "Ingredient Name Basis of Strength Strength",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_300",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 48,
+    "text": "LEVOTHYROXINE SODIUM (UNII: 9J765S329G) (LEVOTHYROXINE - UNII:Q51BO43MG4)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_301",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 48,
+    "text": "# Item Code Package Description Marketing Start",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_302",
+    "drug": "levothyroxine",
+    "section_title": "1 NDC:82347- 0035-4 3 in 1 CARTON 03/01/2023",
+    "audience": "clinician",
+    "page": 48,
+    "text": "1 NDC:82347- 0035-4 3 in 1 CARTON 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_303",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 48,
+    "text": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_304",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 49,
+    "text": "NDA authorized generic NDA021924 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_305",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 49,
+    "text": "Product Type HUMAN PRESCRIPTION DRUG Item Code (Source) NDC:82347-0040",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_306",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 49,
+    "text": "Ingredient Name Basis of Strength Strength",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_307",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 49,
+    "text": "LEVOTHYROXINE SODIUM (UNII: 9J765S329G) (LEVOTHYROXINE - UNII:Q51BO43MG4)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_308",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 49,
+    "text": "# Item Code Package Description Marketing Start",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_309",
+    "drug": "levothyroxine",
+    "section_title": "1 NDC:82347- 0040-4 3 in 1 CARTON 03/01/2023",
+    "audience": "clinician",
+    "page": 49,
+    "text": "1 NDC:82347- 0040-4 3 in 1 CARTON 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_310",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 49,
+    "text": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_311",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 49,
+    "text": "NDA authorized generic NDA021924 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_312",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 50,
+    "text": "Product Type HUMAN PRESCRIPTION DRUG Item Code (Source) NDC:82347-0045",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_313",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 50,
+    "text": "Ingredient Name Basis of Strength Strength",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_314",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 50,
+    "text": "LEVOTHYROXINE SODIUM (UNII: 9J765S329G) (LEVOTHYROXINE - UNII:Q51BO43MG4)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_315",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 50,
+    "text": "# Item Code Package Description Marketing Start",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_316",
+    "drug": "levothyroxine",
+    "section_title": "1 NDC:82347- 0045-4 3 in 1 CARTON 03/01/2023",
+    "audience": "clinician",
+    "page": 50,
+    "text": "1 NDC:82347- 0045-4 3 in 1 CARTON 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_317",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 50,
+    "text": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_318",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 50,
+    "text": "NDA authorized generic NDA021924 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_319",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 51,
+    "text": "Product Type HUMAN PRESCRIPTION DRUG Item Code (Source) NDC:82347-0050",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_320",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 51,
+    "text": "Ingredient Name Basis of Strength Strength",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_321",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 51,
+    "text": "LEVOTHYROXINE SODIUM (UNII: 9J765S329G) (LEVOTHYROXINE - UNII:Q51BO43MG4)",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_322",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 51,
+    "text": "# Item Code Package Description Marketing Start",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_323",
+    "drug": "levothyroxine",
+    "section_title": "1 NDC:82347- 0050-4 3 in 1 CARTON 03/01/2023",
+    "audience": "clinician",
+    "page": 51,
+    "text": "1 NDC:82347- 0050-4 3 in 1 CARTON 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_324",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 51,
+    "text": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  },
+  {
+    "chunk_id": "levothyroxine_325",
+    "drug": "levothyroxine",
+    "section_title": "1 10 in 1 BLISTER PACK; Type 0: Not a Combination Product",
+    "audience": "clinician",
+    "page": 51,
+    "text": "NDA authorized generic NDA021924 03/01/2023",
+    "source_file": "LEVOTHYROXINE SODIUM capsule.pdf"
+  }
+]
