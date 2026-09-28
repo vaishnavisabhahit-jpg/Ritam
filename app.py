@@ -12,6 +12,7 @@ import streamlit as st
 from google import genai
 from google.genai import types
 
+# --- Streamlit Page Configuration ---
 st.set_page_config(
     page_title="Ritam AI — Medical Intelligence",
     page_icon="⚡",
@@ -21,45 +22,60 @@ st.set_page_config(
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
 
-# Get API Key
+# --- Initialize Gemini API Client ---
 api_key = os.getenv("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY", "")
 client = genai.Client(api_key=api_key) if api_key else None
 
+
 def cosine_similarity(a, b):
-    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+    a = np.array(a)
+    b = np.array(b)
+    norm_a = np.linalg.norm(a)
+    norm_b = np.linalg.norm(b)
+    if norm_a == 0 or norm_b == 0:
+        return 0.0
+    return float(np.dot(a, b) / (norm_a * norm_b))
+
 
 @st.cache_data
 def get_gemini_embedding(text: str):
+    """Generate vector embedding using Google's active gemini-embedding-2 model."""
     if not client:
         return None
-    response = client.models.embed_content(
-        model="text-embedding-004",
-        contents=text
-    )
-    return response.embedding.values
+    try:
+        response = client.models.embed_content(
+            model="gemini-embedding-2",
+            contents=text
+        )
+        return response.embeddings[0].values
+    except Exception as e:
+        return None
+
 
 @st.cache_data
-def load_drug_chunks_with_embeddings(drug_id: str):
+def load_drug_chunks(drug_id: str):
+    """Load pre-processed text chunks from JSON store."""
     json_path = os.path.join(PROCESSED_DIR, f"{drug_id}.json")
     if os.path.exists(json_path):
         with open(json_path, "r", encoding="utf-8") as f:
-            chunks = json.load(f)
-            
-        for chunk in chunks:
-            if "embedding" not in chunk:
-                chunk["embedding"] = get_gemini_embedding(chunk["text"])
-        return chunks
+            return json.load(f)
     return []
 
+
 def check_emergency(query: str) -> bool:
-    keywords = ["overdose", "chest pain", "cannot breathe", "anaphylaxis", "poison", "dying", "fainting"]
+    """Interception guardrail for acute life-threatening emergencies."""
+    keywords = [
+        "overdose", "chest pain", "cannot breathe", "anaphylaxis",
+        "poison", "dying", "fainting", "severe allergy"
+    ]
     return any(k in query.lower() for k in keywords)
 
-# --- UI Setup ---
-st.title("⚡ Ritam AI — FDA Medical Intelligence")
-st.caption("Powered by Gemini `text-embedding-004` & `gemini-2.0-flash`")
 
-st.sidebar.header("Configuration")
+# --- UI Header & Sidebar Setup ---
+st.title("⚡ Ritam AI — FDA Medical Intelligence Engine")
+st.caption("Grounded FDA Intelligence Powered by `gemini-embedding-2` & `gemini-2.0-flash`")
+
+st.sidebar.header("System Controls")
 drug_options = {
     "Metformin": "metformin",
     "Acetaminophen": "acetaminophen",
@@ -68,46 +84,74 @@ drug_options = {
     "Cetirizine": "cetirizine",
     "Levothyroxine": "levothyroxine"
 }
-selected_label = st.sidebar.selectbox("Select Target Drug", list(drug_options.keys()))
+selected_label = st.sidebar.selectbox("Target Medication", list(drug_options.keys()))
 selected_drug = drug_options[selected_label]
-audience_mode = st.sidebar.radio("Target Audience", ["Patient", "Doctor"])
-audience = "patient" if audience_mode == "Patient" else "clinician"
 
-user_query = st.text_input(f"Ask a question about {selected_label}:", placeholder="e.g. What are common side effects?")
+audience_mode = st.sidebar.radio("Response Tone", ["Patient View", "Clinical/Doctor View"])
+audience = "patient" if audience_mode == "Patient View" else "clinician"
 
+user_query = st.text_input(
+    f"Enter inquiry regarding {selected_label}:",
+    placeholder="e.g. What are common side effects or dosing instructions?"
+)
+
+# --- Execution Core ---
 if st.button("🚀 Analyze & Verify", type="primary"):
     if not user_query.strip():
         st.warning("Please enter a question.")
     elif check_emergency(user_query):
         st.error("🚨 **CRITICAL MEDICAL EMERGENCY DETECTED**")
-        st.write("If you are experiencing severe acute distress, contact Emergency Services (911) or Poison Control (1-800-222-1222) immediately.")
+        st.markdown(
+            "If you or someone else is experiencing severe symptoms or an immediate emergency, "
+            "contact emergency services (**911**) or Poison Control (**1-800-222-1222**) immediately."
+        )
     elif not client:
-        st.error("⚠️ GEMINI_API_KEY is missing from Secrets.")
+        st.error("⚠️ `GEMINI_API_KEY` is missing from Streamlit Secrets or Environment Variables.")
     else:
-        with st.spinner("Executing High-Accuracy Semantic Search..."):
-            chunks = load_drug_chunks_with_embeddings(selected_drug)
-            query_embedding = get_gemini_embedding(user_query)
+        with st.spinner("Executing Semantic Search & Grounded Analysis..."):
+            chunks = load_drug_chunks(selected_drug)
 
-            if query_embedding and chunks:
-                scored_chunks = []
+            if not chunks:
+                st.error(f"No processed data found for **{selected_label}** in `data/processed/{selected_drug}.json`.")
+            else:
+                # 1. Hybrid Search Scoring: Keyword Boost
+                query_words = set(user_query.lower().split())
                 for c in chunks:
-                    if c.get("embedding"):
-                        sim = cosine_similarity(query_embedding, c["embedding"])
-                        scored_chunks.append((sim, c))
-                
-                scored_chunks.sort(key=lambda x: x[0], reverse=True)
-                top_chunks = [c for sim, c in scored_chunks[:3]]
+                    c_text = c.get("text", "").lower()
+                    c["score"] = sum(1 for w in query_words if w in c_text)
 
+                # 2. Vector Search Scoring: Gemini Embeddings
+                query_emb = get_gemini_embedding(user_query)
+                if query_emb:
+                    top_candidates = sorted(chunks, key=lambda x: x["score"], reverse=True)[:5]
+                    for c in top_candidates:
+                        snippet = c.get("text", "")[:500]
+                        c_emb = get_gemini_embedding(snippet)
+                        if c_emb:
+                            sim = cosine_similarity(query_emb, c_emb)
+                            c["score"] += sim * 10.0
+
+                # Sort and pick top 3 relevant chunks
+                chunks.sort(key=lambda x: x["score"], reverse=True)
+                top_chunks = chunks[:3]
+
+                # 3. Context & Prompt Assembly
                 context_text = "\n\n".join([
                     f"--- Section: {c.get('section', 'General')} (Page {c.get('page', 1)}) ---\n{c.get('text', '')}"
                     for c in top_chunks
                 ])
 
-                prompt = f"Target Drug: {selected_label}\nTarget Audience: {audience}\nUser Question: {user_query}\n\nFDA Context:\n{context_text}"
-                
+                prompt = (
+                    f"Target Drug: {selected_label}\n"
+                    f"Target Audience Profile: {audience}\n"
+                    f"User Inquiry: {user_query}\n\n"
+                    f"FDA Official Context:\n{context_text}"
+                )
+
                 system_instruction = (
                     "You are Ritam AI, a safety-critical medical assistant. Answer using ONLY the provided FDA label context.\n"
-                    "Do not guess or assume. If the info is missing, state that clearly."
+                    "Do not guess, assume, or fabricate medical advice. If information is not in the context, explicitly state that.\n"
+                    "Adjust complexity to match the requested audience profile."
                 )
 
                 try:
@@ -119,7 +163,7 @@ if st.button("🚀 Analyze & Verify", type="primary"):
                             temperature=0.1
                         )
                     )
-                    
+
                     st.subheader("📋 Grounded Answer")
                     st.write(response.text)
 
@@ -130,4 +174,4 @@ if st.button("🚀 Analyze & Verify", type="primary"):
                             st.write(f'"{c.get("text", "")}"')
 
                 except Exception as e:
-                    st.error(f"API Error: {e}")
+                    st.error(f"API Generation Failure: {e}")
