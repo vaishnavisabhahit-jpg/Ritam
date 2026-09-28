@@ -23,6 +23,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
 
 # --- Initialize Gemini API Client ---
+# Fetches from Streamlit Secrets or local environment
 api_key = os.getenv("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY", "")
 client = genai.Client(api_key=api_key) if api_key else None
 
@@ -44,7 +45,7 @@ def get_gemini_embedding(text: str):
         return None
     try:
         response = client.models.embed_content(
-            model="gemini-embedding-2",
+            model="gemini-embedding-2-preview",
             contents=text
         )
         return response.embeddings[0].values
@@ -73,7 +74,7 @@ def check_emergency(query: str) -> bool:
 
 # --- UI Header & Sidebar Setup ---
 st.title("⚡ Ritam AI — FDA Medical Intelligence Engine")
-st.caption("Grounded FDA Intelligence Powered by `gemini-embedding-2` & `gemini-2.0-flash`")
+st.caption("Grounded FDA Intelligence Powered by `gemini-2.5-flash`")
 
 st.sidebar.header("System Controls")
 drug_options = {
@@ -156,7 +157,7 @@ if st.button("🚀 Analyze & Verify", type="primary"):
 
                 try:
                     response = client.models.generate_content(
-                        model="gemini-2.0-flash",
+                        model="gemini-2.5-flash",
                         contents=prompt,
                         config=types.GenerateContentConfig(
                             system_instruction=system_instruction,
