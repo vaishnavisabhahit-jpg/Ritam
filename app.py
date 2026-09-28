@@ -137,17 +137,27 @@ if st.button("🚀 Analyze & Verify", type="primary"):
 
                 # 3. Context & Prompt Assembly
                 context_text = "\n\n".join([
-                    f"--- Section: {c.get('section', 'General')} (Page {c.get('page', 1)}) ---\n{c.get('text', '')}"
-                    for c in top_chunks
-                ])
+                try:
+                    response = client.models.generate_content(
+                        model="models/gemini-1.5-flash",
+                        contents=prompt,
+                        config=types.GenerateContentConfig(
+                            system_instruction=system_instruction,
+                            temperature=0.1
+                        )
+                    )
 
-                prompt = (
-                    f"Target Drug: {selected_label}\n"
-                    f"Target Audience Profile: {audience}\n"
-                    f"User Inquiry: {user_query}\n\n"
-                    f"FDA Official Context:\n{context_text}"
-                )
+                    st.subheader("📋 Grounded Answer")
+                    st.write(response.text)
 
+                    st.markdown("---")
+                    st.subheader("📄 Top Retained Source Context")
+                    for i, c in enumerate(top_chunks, 1):
+                        with st.expander(f"Source #{i} — Section: {c.get('section', 'General')} (Page {c.get('page', 1)})"):
+                            st.write(f'"{c.get("text", "")}"')
+
+                except Exception as e:
+                    st.error(f"API Generation Failure: {e}")
                 system_instruction = (
                     "You are Ritam AI, a safety-critical medical assistant. Answer using ONLY the provided FDA label context.\n"
                     "Do not guess, assume, or fabricate medical advice. If information is not in the context, explicitly state that.\n"
