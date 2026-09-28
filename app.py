@@ -6,47 +6,59 @@ except ImportError:
     pass
 
 import os
-import re
 import json
+import numpy as np
 import streamlit as st
+from google import genai
+from google.genai import types
 
-# 1. Basic Page Config
 st.set_page_config(
-    page_title="Ritam Medical AI",
-    page_icon="💊",
+    page_title="Ritam AI — Medical Intelligence",
+    page_icon="⚡",
     layout="wide"
 )
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-CHROMA_DB_DIR = os.path.join(BASE_DIR, "data", "chroma_db")
-EMERGENCY_CONFIG_PATH = os.path.join(BASE_DIR, "config", "emergency.json")
+PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
 
-# 2. Lazy Loaded Resource Caching (Prevents Cloud OOM Crashes)
-@st.cache_resource(show_spinner="Loading Embedding Model...")
-def get_embedding_model():
-    from sentence_transformers import SentenceTransformer
-    return SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+# Get API Key
+api_key = os.getenv("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY", "")
+client = genai.Client(api_key=api_key) if api_key else None
 
-@st.cache_resource(show_spinner="Connecting to Vector DB...")
-def get_chroma_collection():
-    import chromadb
-    try:
-        client = chromadb.PersistentClient(path=CHROMA_DB_DIR)
-        return client.get_collection("drug_labels")
-    except Exception as e:
-        st.error(f"Vector Database Notice: {e}")
+def cosine_similarity(a, b):
+    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+
+@st.cache_data
+def get_gemini_embedding(text: str):
+    if not client:
         return None
+    response = client.models.embed_content(
+        model="text-embedding-004",
+        contents=text
+    )
+    return response.embedding.values
 
-# 3. Emergency Helper
+@st.cache_data
+def load_drug_chunks_with_embeddings(drug_id: str):
+    json_path = os.path.join(PROCESSED_DIR, f"{drug_id}.json")
+    if os.path.exists(json_path):
+        with open(json_path, "r", encoding="utf-8") as f:
+            chunks = json.load(f)
+            
+        for chunk in chunks:
+            if "embedding" not in chunk:
+                chunk["embedding"] = get_gemini_embedding(chunk["text"])
+        return chunks
+    return []
+
 def check_emergency(query: str) -> bool:
     keywords = ["overdose", "chest pain", "cannot breathe", "anaphylaxis", "poison", "dying", "fainting"]
     return any(k in query.lower() for k in keywords)
 
-# 4. Header UI
-st.title("💊 Ritam AI — FDA Clinical Intelligence")
-st.caption("Safety-Gated Medical Question Answering Engine")
+# --- UI Setup ---
+st.title("⚡ Ritam AI — FDA Medical Intelligence")
+st.caption("Powered by Gemini `text-embedding-004` & `gemini-2.0-flash`")
 
-# 5. Sidebar Controls
 st.sidebar.header("Configuration")
 drug_options = {
     "Metformin": "metformin",
@@ -56,46 +68,66 @@ drug_options = {
     "Cetirizine": "cetirizine",
     "Levothyroxine": "levothyroxine"
 }
-selected_label = st.sidebar.selectbox("Select FDA Drug Label", list(drug_options.keys()))
+selected_label = st.sidebar.selectbox("Select Target Drug", list(drug_options.keys()))
 selected_drug = drug_options[selected_label]
 audience_mode = st.sidebar.radio("Target Audience", ["Patient", "Doctor"])
 audience = "patient" if audience_mode == "Patient" else "clinician"
 
-# 6. Main Query Form
-user_query = st.text_input(f"Ask a question about {selected_label}:")
+user_query = st.text_input(f"Ask a question about {selected_label}:", placeholder="e.g. What are common side effects?")
 
-if st.button("Analyze & Verify", type="primary"):
+if st.button("🚀 Analyze & Verify", type="primary"):
     if not user_query.strip():
-        st.warning("Please enter a medical question.")
+        st.warning("Please enter a question.")
     elif check_emergency(user_query):
-        st.error("🚨 **CRITICAL EMERGENCY DETECTED**")
-        st.write("If you are experiencing severe symptoms, call Emergency Services (911) or Poison Control (1-800-222-1222) immediately.")
+        st.error("🚨 **CRITICAL MEDICAL EMERGENCY DETECTED**")
+        st.write("If you are experiencing severe acute distress, contact Emergency Services (911) or Poison Control (1-800-222-1222) immediately.")
+    elif not client:
+        st.error("⚠️ GEMINI_API_KEY is missing from Secrets.")
     else:
-        with st.spinner("Processing through safety pipeline..."):
-            embed_model = get_embedding_model()
-            collection = get_chroma_collection()
+        with st.spinner("Executing High-Accuracy Semantic Search..."):
+            chunks = load_drug_chunks_with_embeddings(selected_drug)
+            query_embedding = get_gemini_embedding(user_query)
 
-            if not collection:
-                st.error("ChromaDB vector store not found. Ensure `data/chroma_db` is committed to GitHub.")
-            else:
-                # Query Vector Database
-                query_vec = embed_model.encode([user_query]).tolist()
-                results = collection.query(
-                    query_embeddings=query_vec,
-                    n_results=3,
-                    where={"drug": selected_drug}
+            if query_embedding and chunks:
+                scored_chunks = []
+                for c in chunks:
+                    if c.get("embedding"):
+                        sim = cosine_similarity(query_embedding, c["embedding"])
+                        scored_chunks.append((sim, c))
+                
+                scored_chunks.sort(key=lambda x: x[0], reverse=True)
+                top_chunks = [c for sim, c in scored_chunks[:3]]
+
+                context_text = "\n\n".join([
+                    f"--- Section: {c.get('section', 'General')} (Page {c.get('page', 1)}) ---\n{c.get('text', '')}"
+                    for c in top_chunks
+                ])
+
+                prompt = f"Target Drug: {selected_label}\nTarget Audience: {audience}\nUser Question: {user_query}\n\nFDA Context:\n{context_text}"
+                
+                system_instruction = (
+                    "You are Ritam AI, a safety-critical medical assistant. Answer using ONLY the provided FDA label context.\n"
+                    "Do not guess or assume. If the info is missing, state that clearly."
                 )
 
-                chunks = []
-                if results and results.get("documents") and results["documents"][0]:
-                    for idx, text in enumerate(results["documents"][0]):
-                        meta = results["metadatas"][0][idx]
-                        chunks.append({"text": text, "section": meta.get("section", "General"), "page": meta.get("page", 1)})
+                try:
+                    response = client.models.generate_content(
+                        model="gemini-2.0-flash",
+                        contents=prompt,
+                        config=types.GenerateContentConfig(
+                            system_instruction=system_instruction,
+                            temperature=0.1
+                        )
+                    )
+                    
+                    st.subheader("📋 Grounded Answer")
+                    st.write(response.text)
 
-                if not chunks:
-                    st.warning(f"No specific label references found for '{selected_label}'.")
-                else:
-                    st.subheader("📋 Context Chunks Retrieved")
-                    for i, c in enumerate(chunks, 1):
-                        with st.expander(f"Chunk #{i} — Section: {c['section']} (Page {c['page']})"):
-                            st.write(c["text"])
+                    st.markdown("---")
+                    st.subheader("📄 Top Retained Source Context")
+                    for i, c in enumerate(top_chunks, 1):
+                        with st.expander(f"Source #{i} — Section: {c.get('section', 'General')} (Page {c.get('page', 1)})"):
+                            st.write(f'"{c.get("text", "")}"')
+
+                except Exception as e:
+                    st.error(f"API Error: {e}")

@@ -1,10 +1,5 @@
---extra-index-url https://download.pytorch.org/whl/cpu
-torch
 streamlit
 google-genai
-chromadb
-sentence-transformers
-PyMuPDF
 textstat
 python-dotenv
 pysqlite3-binary
