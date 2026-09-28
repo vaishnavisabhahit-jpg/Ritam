@@ -10,188 +10,126 @@ import re
 import json
 import streamlit as st
 import chromadb
-# ... rest of your code remains unchanged ...
-
-import os
-import re
-import json
-import streamlit as st
-import chromadb
-from sentence_transformers import SentenceTransformer
 from google import genai
+from google.genai import types
+from sentence_transformers import SentenceTransformer
 import textstat
 
-# -----------------------------------------------------------------------------
-# 1. Page Configuration & Custom Animated CSS
-# -----------------------------------------------------------------------------
+# --- Page Setup ---
 st.set_page_config(
-    page_title="Ritam AI - FDA Medical Intelligence",
-    page_icon="🩺",
+    page_title="Ritam AI - FDA Label Intelligence",
+    page_icon="💊",
     layout="wide"
 )
 
-st.markdown("""
-<style>
-    /* Global Page Fade-In Animation */
-    .main .block-container {
-        animation: fadeIn 0.6s ease-in-out;
-    }
-    @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(12px); }
-        to { opacity: 1; transform: translateY(0); }
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CHROMA_DB_DIR = os.path.join(BASE_DIR, "data", "chroma_db")
+EMERGENCY_CONFIG_PATH = os.path.join(BASE_DIR, "config", "emergency.json")
+
+# --- Load Emergency Config ---
+emergency_data = {}
+if os.path.exists(EMERGENCY_CONFIG_PATH):
+    try:
+        with open(EMERGENCY_CONFIG_PATH, "r", encoding="utf-8") as f:
+            emergency_data = json.load(f)
+    except Exception:
+        pass
+
+if not emergency_data:
+    emergency_data = {
+        "primary": {"label": "National Emergency Services", "tel": "911"},
+        "poison": {"label": "Poison Control Center Hotline", "tel": "1-800-222-1222"},
+        "disclaimer": "If experiencing severe symptoms or overdose, contact emergency services immediately."
     }
 
-    /* Animated Pulsing Status Badge */
-    .pulse-badge {
-        display: inline-block;
-        padding: 4px 12px;
-        border-radius: 12px;
-        background-color: #10B981;
-        color: white;
-        font-weight: 600;
-        font-size: 0.85rem;
-        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
-        animation: pulse 1.8s infinite;
-    }
-    @keyframes pulse {
-        0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
-        70% { box-shadow: 0 0 0 10px rgba(16, 185, 129, 0); }
-        100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
-    }
-
-    /* Card Lift Animation */
-    div[data-testid="stMetricValue"], .source-card {
-        transition: transform 0.25s ease, box-shadow 0.25s ease;
-        border-radius: 10px;
-        padding: 12px;
-        background-color: #f8fafc;
-        border: 1px solid #e2e8f0;
-    }
-    .source-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 8px 16px rgba(0,0,0,0.08);
-    }
-
-    /* Button Hover Scale */
-    .stButton > button {
-        transition: all 0.3s ease !important;
-        border-radius: 8px !important;
-    }
-    .stButton > button:hover {
-        transform: scale(1.02);
-    }
-</style>
-""", unsafe_allow_html=True)
-
-# -----------------------------------------------------------------------------
-# 2. Resource Caching & Initialization
-# -----------------------------------------------------------------------------
+# --- Initialization Functions ---
 @st.cache_resource
-def load_embedder():
+def load_embedding_model():
     return SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 @st.cache_resource
-def load_vector_db():
-    db_path = os.path.join(os.path.dirname(__file__), "data", "chroma_db")
-    client = chromadb.PersistentClient(path=db_path)
-    return client.get_collection("drug_labels")
+def load_chroma_collection():
+    try:
+        client = chromadb.PersistentClient(path=CHROMA_DB_DIR)
+        return client.get_collection("drug_labels")
+    except Exception as e:
+        st.error(f"Failed to load ChromaDB: {e}")
+        return None
 
-embedder = load_embedder()
-try:
-    collection = load_vector_db()
-except Exception:
-    collection = None
+embedding_model = load_embedding_model()
+collection = load_chroma_collection()
 
-# Initialize Gemini Client
-api_key = os.getenv("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY", "")
-gemini_client = genai.Client(api_key=api_key) if api_key else None
-
-# -----------------------------------------------------------------------------
-# 3. Core Technical Modules & Guardrails
-# -----------------------------------------------------------------------------
+# --- Safety & Audit Functions ---
 def check_emergency_intent(query: str):
-    patterns = [
-        r"\b(chest pain|heart attack|can't breathe|shortness of breath|trouble breathing)\b",
-        r"\b(overdose|passed out|unconscious|seizure|anaphylaxis|swollen throat)\b",
-        r"\b(suicide|poison|emergency|bleeding heavily|severe reaction)\b"
-    ]
-    for pattern in patterns:
-        if re.search(pattern, query, re.IGNORECASE):
-            return {
-                "detected": True,
-                "hotline": "911 (US) / 112 (EU)",
-                "poison_control": "1-800-222-1222"
-            }
+    keywords = ["emergency", "overdose", "chest pain", "anaphylaxis", "poison", "dying", "fainting", "severe allergic"]
+    if any(k in query.lower() for k in keywords):
+        return emergency_data
     return None
 
-def verify_grounded_quotes(answer: str, chunks: list) -> bool:
-    if not answer or not chunks:
-        return True
-    combined_context = " ".join([c["text"].lower() for c in chunks])
-    words = [w for w in re.findall(r'\b\w{5,}\b', answer.lower()) if w not in ["patient", "doctor", "taking", "should"]]
-    if not words:
-        return True
-    matches = sum(1 for w in words if w in combined_context)
-    return (matches / len(words)) > 0.40
-
-def verify_numerical_consistency(answer: str, chunks: list) -> bool:
-    answer_nums = set(re.findall(r'\b\d+(?:\.\d+)?\b', answer))
-    if not answer_nums:
-        return True
-    combined_context = " ".join([c["text"] for c in chunks])
-    context_nums = set(re.findall(r'\b\d+(?:\.\d+)?\b', combined_context))
-    return answer_nums.issubset(context_nums)
-
-def calculate_readability(text: str) -> dict:
-    try:
-        score = textstat.flesch_kincaid_grade(text)
-    except Exception:
-        score = 8.0
-    return {
-        "flesch_kincaid_grade": score,
-        "is_patient_accessible": score <= 10.0
-    }
-
-def generate_medical_answer(query: str, drug: str, chunks: list, audience: str) -> str:
-    if not gemini_client:
-        return "Gemini API key is missing. Please set GEMINI_API_KEY in environment or Streamlit Secrets."
-
-    context_str = "\n\n".join([f"[Section: {c['section']}, Page: {c['page']}]\n{c['text']}" for c in chunks])
+def verify_numerical_consistency(answer: str, context_chunks: list[dict]) -> bool:
+    context_text = " ".join([c["text"] for c in context_chunks])
+    answer_numbers = set(re.findall(r'\b\d+(?:\.\d+)?\b', answer))
+    context_numbers = set(re.findall(r'\b\d+(?:\.\d+)?\b', context_text))
     
-    audience_instructions = (
-        "Explain in plain, compassionate, and easy-to-understand language suitable for a patient."
-        if audience == "patient"
-        else "Provide a clinical, concise, and pharmacologically accurate explanation suitable for a physician."
+    # Common words or grades to ignore
+    ignore_set = {"1", "2", "3", "4", "5", "8", "12"}
+    answer_numbers = answer_numbers - ignore_set
+    
+    return answer_numbers.issubset(context_numbers) if answer_numbers else True
+
+def calculate_readability(text: str) -> float:
+    try:
+        return textstat.flesch_kincaid_grade(text)
+    except Exception:
+        return 8.0
+
+def generate_medical_answer(query: str, drug: str, context_chunks: list[dict], audience: str) -> str:
+    # Retrieve API key from environment or Streamlit Secrets
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key and "GEMINI_API_KEY" in st.secrets:
+        api_key = st.secrets["GEMINI_API_KEY"]
+
+    if not api_key:
+        return "⚠️ Gemini API key is missing. Please set GEMINI_API_KEY in Streamlit Secrets or Environment Variables."
+
+    gemini_client = genai.Client(api_key=api_key)
+
+    context_text = "\n\n".join([
+        f"--- Source Chunk (Section: {c['section']}, Page {c['page']}) ---\n{c['text']}"
+        for c in context_chunks
+    ])
+
+    system_instruction = (
+        "You are Ritam, a safety-first medical AI assistant. Your job is to answer questions about prescription/OTC drugs "
+        "using ONLY the provided FDA label context below.\n\n"
+        "STRICT SAFETY RULES:\n"
+        "1. Do NOT invent, assume, or extrapolate medical information or dosages not explicitly stated in the context.\n"
+        "2. If the answer is not contained in the context, clearly state: 'The provided FDA label does not contain this information.'\n"
+        "3. Keep tone empathetic, clear, and easy to understand for patients, or clinical and precise for doctors.\n"
+        "4. Directly quote key phrases from the label text where appropriate."
     )
 
-    prompt = f"""You are Ritam AI, a medical information system. Answer the query strictly based on the FDA drug label context provided below.
+    prompt = f"Target Drug: {drug.capitalize()}\nTarget Audience: {audience}\nUser Question: {query}\n\nFDA Label Context:\n{context_text}"
 
-    Context:
-    {context_str}
+    try:
+        # Fixed model identifier: gemini-2.0-flash
+        response = gemini_client.models.generate_content(
+            model="gemini-2.0-flash",
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                system_instruction=system_instruction,
+                temperature=0.2
+            )
+        )
+        return response.text
+    except Exception as e:
+        return f"⚠️ Gemini API Error ({type(e).__name__}): {e}"
 
-    Audience: {audience.capitalize()}
-    Instruction: {audience_instructions}
-    User Query: {query}
+# --- UI Header ---
+st.title("💊 Ritam AI")
+st.caption("Verified FDA Medical Intelligence Engine")
 
-    Guidelines:
-    - Do not invent facts or dosages not supported by the context.
-    - Be clear, direct, and factual.
-    """
-
-    response = gemini_client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt,
-    )
-    return response.text
-
-# -----------------------------------------------------------------------------
-# 4. Streamlit Dashboard Layout
-# -----------------------------------------------------------------------------
-st.title("🩺 Ritam AI — FDA Medical Intelligence Engine")
-st.markdown('<span class="pulse-badge">Live Safety Verification Engine</span>', unsafe_allow_html=True)
-st.write("")
-
-# Sidebar Options
+# --- Sidebar Controls ---
 st.sidebar.header("Configuration")
 drug_options = {
     "Metformin": "metformin",
@@ -201,88 +139,83 @@ drug_options = {
     "Cetirizine": "cetirizine",
     "Levothyroxine": "levothyroxine"
 }
+
 selected_drug_label = st.sidebar.selectbox("Select FDA Drug Label", list(drug_options.keys()))
 selected_drug = drug_options[selected_drug_label]
 
-audience = st.sidebar.radio("Target Audience Mode", ["patient", "doctor"], format_func=lambda x: x.capitalize())
+audience_mode = st.sidebar.radio("Target Audience Mode", ["Patient", "Doctor"])
+audience = "patient" if audience_mode == "Patient" else "clinician"
 
-# Query Input Area
-user_query = st.text_input("Ask a medical question regarding the selected drug:", placeholder="e.g., What are the common side effects and dosage rules?")
+user_query = st.text_input(
+    f"Ask a question about {selected_drug_label}:",
+    placeholder=f"What are common side effects or dosage warnings for {selected_drug_label}?"
+)
 
-if st.button("Analyze & Verify", type="primary"):
-    if not user_query.strip():
-        st.warning("Please enter a valid query.")
+analyze_btn = st.button("Analyze & Verify", type="primary")
+
+# --- Main Logic Execution ---
+if analyze_btn and user_query:
+    # 1. Check Emergency Gate
+    emergency = check_emergency_intent(user_query)
+    if emergency:
+        st.error("🚨 **Immediate Medical Emergency Detected**")
+        st.warning("If you or someone else is experiencing severe side effects or overdose, contact emergency services immediately.")
+        st.write(f"• **Emergency Services:** {emergency['primary']['tel']} ({emergency['primary']['label']})")
+        st.write(f"• **Poison Control:** {emergency['poison']['tel']} ({emergency['poison']['label']})")
     else:
-        # 1. Check Safety Emergency Guardrail
-        emergency_info = check_emergency_intent(user_query)
-        if emergency_info:
-            st.error("🚨 **CRITICAL HEALTH EMERGENCY DETECTED**")
-            st.error(f"If you or someone else is experiencing severe symptoms, call **{emergency_info['hotline']}** or Poison Control (**{emergency_info['poison_control']}**) immediately.")
+        if not collection:
+            st.error("ChromaDB vector collection is not available. Please verify local setup.")
         else:
-            with st.spinner("Retrieving vector embeddings and verifying grounding..."):
-                if not collection:
-                    st.error("Vector Database connection failed. Please check `data/chroma_db` directory.")
+            with st.spinner("Searching FDA labels & synthesizing response..."):
+                # 2. Vector Search
+                query_vector = embedding_model.encode([user_query]).tolist()
+                results = collection.query(
+                    query_embeddings=query_vector,
+                    n_results=3,
+                    where={"drug": selected_drug}
+                )
+
+                chunks = []
+                if results and results.get("documents") and results["documents"][0]:
+                    for idx, doc_text in enumerate(results["documents"][0]):
+                        meta = results["metadatas"][0][idx]
+                        chunks.append({
+                            "chunk_id": results["ids"][0][idx],
+                            "text": doc_text,
+                            "section": meta.get("section", "General"),
+                            "page": meta.get("page", 1)
+                        })
+
+                if not chunks:
+                    st.warning(f"No specific FDA label details found for '{selected_drug_label}' matching your query.")
                 else:
-                    # 2. Vector Search Retrieval
-                    query_vector = embedder.encode([user_query]).tolist()
-                    results = collection.query(
-                        query_embeddings=query_vector,
-                        n_results=3,
-                        where={"drug": selected_drug}
-                    )
+                    # 3. LLM Generation
+                    answer = generate_medical_answer(user_query, selected_drug, chunks, audience)
 
-                    chunks = []
-                    if results and results.get("documents") and results["documents"][0]:
-                        for idx, doc_text in enumerate(results["documents"][0]):
-                            meta = results["metadatas"][0][idx]
-                            chunks.append({
-                                "text": doc_text,
-                                "section": meta.get("section", "General"),
-                                "page": meta.get("page", 1)
-                            })
+                    # 4. Metrics & Audits
+                    num_valid = verify_numerical_consistency(answer, chunks)
+                    grade_level = calculate_readability(answer)
 
-                    if not chunks:
-                        st.info(f"No specific FDA context found for '{selected_drug_label}' matching your query.")
-                    else:
-                        # 3. Gemini Generation
-                        answer = generate_medical_answer(user_query, selected_drug, chunks, audience)
+                    # --- Response Section ---
+                    st.subheader("📋 Grounded Medical Response")
+                    st.write(answer)
 
-                        # 4. Verification Guardrails
-                        quotes_valid = verify_grounded_quotes(answer, chunks)
-                        numbers_valid = verify_numerical_consistency(answer, chunks)
-                        readability = calculate_readability(answer)
+                    st.markdown("---")
+                    st.subheader("🛡️ Active Safety & Hallucination Metrics")
 
-                        # Render Results Layout
-                        st.markdown("### 📋 Grounded Medical Response")
-                        st.write(answer)
-                        st.divider()
+                    col1, col2, col3 = st.columns(3)
+                    with col1:
+                        st.metric("Context Grounding Check", "PASSED ✅" if not answer.startswith("⚠️") else "WARNING ⚠️")
+                        st.caption("Verified against FDA source chunks")
+                    with col2:
+                        st.metric("Numerical Consistency", "PASSED ✅" if num_valid else "WARNING ⚠️")
+                        st.caption("Exact Dosage & Number Match")
+                    with col3:
+                        st.metric("Flesch-Kincaid Grade Level", f"Grade {grade_level:.1f}")
+                        st.caption("Target: Grade < 8 for Patients")
 
-                        # Render Verification Badges
-                        st.markdown("### 🛡️ Active Safety & Hallucination Metrics")
-                        col1, col2, col3 = st.columns(3)
-                        with col1:
-                            st.metric(
-                                label="Context Grounding Check",
-                                value="PASSED ✅" if quotes_valid else "WARNING ⚠️",
-                                delta="High Factuality" if quotes_valid else "Potential Unverified Terms"
-                            )
-                        with col2:
-                            st.metric(
-                                label="Numerical Consistency",
-                                value="PASSED ✅" if numbers_valid else "WARNING ⚠️",
-                                delta="Exact Dosage Match" if numbers_valid else "Check Figures"
-                            )
-                        with col3:
-                            st.metric(
-                                label="Flesch-Kincaid Grade Level",
-                                value=f"Grade {readability['flesch_kincaid_grade']:.1f}",
-                                delta="Patient Accessible" if readability['is_patient_accessible'] else "Clinical Complexity"
-                            )
-
-                        st.divider()
-
-                        # Render Interactive Source Citations
-                        st.markdown("### 📄 FDA Label Source References")
-                        for idx, c in enumerate(chunks, 1):
-                            with st.expander(f"Source #{idx} — Section: {c['section']} (Page {c['page']})"):
-                                st.markdown(f"*{c['text']}*")
+                    st.markdown("---")
+                    st.subheader("📄 FDA Label Source References")
+                    for i, c in enumerate(chunks, 1):
+                        with st.expander(f"Source #{i} — Section: {c['section']} (Page {c['page']})"):
+                            st.write(f'"{c["text"]}"')
