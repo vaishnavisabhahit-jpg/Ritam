@@ -1,6 +1,16 @@
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+try:
+    __import__('pysqlite3')
+    import sys
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+except ImportError:
+    pass
+
+import os
+import re
+import json
+import streamlit as st
+import chromadb
+# ... rest of your code remains unchanged ...
 
 import os
 import re

@@ -5,3 +5,4 @@ sentence-transformers
 PyMuPDF
 textstat
 python-dotenv
+pysqlite3-binary
